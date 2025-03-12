@@ -1,0 +1,168 @@
+{
+  "@odata.context": "https://graph.microsoft.com/beta/$metadata#deviceManagement/configurationPolicies(assignments(),settings())/$entity",
+  "@odata.type": "#microsoft.graph.deviceManagementConfigurationPolicy",
+  "@odata.id": "deviceManagement/configurationPolicies('f285943a-ed2e-486a-8a00-187e8a727cd4')",
+  "@odata.editLink": "deviceManagement/configurationPolicies('f285943a-ed2e-486a-8a00-187e8a727cd4')",
+  "createdDateTime@odata.type": "#DateTimeOffset",
+  "createdDateTime": "2025-03-06T03:09:37.4668029Z",
+  "creationSource": null,
+  "description": "Configures extension settings in Google Chrome - prevents users from adding extensions, and configures a list of force installed extensions.\n\nApply to All Devices / filters or device groups.",
+  "lastModifiedDateTime@odata.type": "#DateTimeOffset",
+  "lastModifiedDateTime": "2025-03-06T03:09:37.4668029Z",
+  "name": "Prod-Windows-GoogleChrome-Extensions-Device",
+  "platforms@odata.type": "#microsoft.graph.deviceManagementConfigurationPlatforms",
+  "platforms": "windows10",
+  "priorityMetaData": null,
+  "roleScopeTagIds@odata.type": "#Collection(String)",
+  "roleScopeTagIds": [
+    "0"
+  ],
+  "settingCount": 3,
+  "technologies@odata.type": "#microsoft.graph.deviceManagementConfigurationTechnologies",
+  "technologies": "mdm",
+  "id": "f285943a-ed2e-486a-8a00-187e8a727cd4",
+  "templateReference": {
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationPolicyTemplateReference",
+    "templateId": "",
+    "templateFamily@odata.type": "#microsoft.graph.deviceManagementConfigurationTemplateFamily",
+    "templateFamily": "none",
+    "templateDisplayName": null,
+    "templateDisplayVersion": null
+  },
+  "assignments@odata.context": "https://graph.microsoft.com/beta/$metadata#deviceManagement/configurationPolicies('f285943a-ed2e-486a-8a00-187e8a727cd4')/assignments",
+  "assignments@odata.associationLink": "https://graph.microsoft.com/beta/deviceManagement/configurationPolicies('f285943a-ed2e-486a-8a00-187e8a727cd4')/assignments/$ref",
+  "assignments@odata.navigationLink": "https://graph.microsoft.com/beta/deviceManagement/configurationPolicies('f285943a-ed2e-486a-8a00-187e8a727cd4')/assignments",
+  "assignments": [
+    {
+      "id": "f285943a-ed2e-486a-8a00-187e8a727cd4_adadadad-808e-44e2-905a-0b7873a8a531",
+      "source": "direct",
+      "sourceId": "f285943a-ed2e-486a-8a00-187e8a727cd4",
+      "target": {
+        "@odata.type": "#microsoft.graph.allDevicesAssignmentTarget",
+        "deviceAndAppManagementAssignmentFilterId": null,
+        "deviceAndAppManagementAssignmentFilterType": "none"
+      }
+    }
+  ],
+  "settings@odata.context": "https://graph.microsoft.com/beta/$metadata#deviceManagement/configurationPolicies('f285943a-ed2e-486a-8a00-187e8a727cd4')/settings",
+  "settings@odata.associationLink": "https://graph.microsoft.com/beta/deviceManagement/configurationPolicies('f285943a-ed2e-486a-8a00-187e8a727cd4')/settings/$ref",
+  "settings@odata.navigationLink": "https://graph.microsoft.com/beta/deviceManagement/configurationPolicies('f285943a-ed2e-486a-8a00-187e8a727cd4')/settings",
+  "settings": [
+    {
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationSetting",
+      "@odata.id": "deviceManagement/configurationPolicies('f285943a-ed2e-486a-8a00-187e8a727cd4')/settings('0')",
+      "@odata.editLink": "deviceManagement/configurationPolicies('f285943a-ed2e-486a-8a00-187e8a727cd4')/settings('0')",
+      "id": "0",
+      "settingInstance": {
+        "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+        "settingDefinitionId": "device_vendor_msft_policy_config_chromeintunev1~policy~googlechrome~extensions_blockexternalextensions",
+        "settingInstanceTemplateReference": null,
+        "choiceSettingValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
+          "settingValueTemplateReference": null,
+          "value": "device_vendor_msft_policy_config_chromeintunev1~policy~googlechrome~extensions_blockexternalextensions_1",
+          "children@odata.type": "#Collection(microsoft.graph.deviceManagementConfigurationSettingInstance)",
+          "children": []
+        }
+      },
+      "settingDefinitions@odata.associationLink": "https://graph.microsoft.com/beta/deviceManagement/configurationPolicies('f285943a-ed2e-486a-8a00-187e8a727cd4')/settings('0')/settingDefinitions/$ref",
+      "settingDefinitions@odata.navigationLink": "https://graph.microsoft.com/beta/deviceManagement/configurationPolicies('f285943a-ed2e-486a-8a00-187e8a727cd4')/settings('0')/settingDefinitions"
+    },
+    {
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationSetting",
+      "@odata.id": "deviceManagement/configurationPolicies('f285943a-ed2e-486a-8a00-187e8a727cd4')/settings('1')",
+      "@odata.editLink": "deviceManagement/configurationPolicies('f285943a-ed2e-486a-8a00-187e8a727cd4')/settings('1')",
+      "id": "1",
+      "settingInstance": {
+        "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+        "settingDefinitionId": "device_vendor_msft_policy_config_chromeintunev1~policy~googlechrome~extensions_extensioninstallblocklist",
+        "settingInstanceTemplateReference": null,
+        "choiceSettingValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
+          "settingValueTemplateReference": null,
+          "value": "device_vendor_msft_policy_config_chromeintunev1~policy~googlechrome~extensions_extensioninstallblocklist_1",
+          "children@odata.type": "#Collection(microsoft.graph.deviceManagementConfigurationSettingInstance)",
+          "children": [
+            {
+              "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingCollectionInstance",
+              "settingDefinitionId": "device_vendor_msft_policy_config_chromeintunev1~policy~googlechrome~extensions_extensioninstallblocklist_extensioninstallblocklistdesc",
+              "settingInstanceTemplateReference": null,
+              "simpleSettingCollectionValue@odata.type": "#Collection(microsoft.graph.deviceManagementConfigurationSimpleSettingValue)",
+              "simpleSettingCollectionValue": [
+                {
+                  "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+                  "settingValueTemplateReference": null,
+                  "value": "*"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "settingDefinitions@odata.associationLink": "https://graph.microsoft.com/beta/deviceManagement/configurationPolicies('f285943a-ed2e-486a-8a00-187e8a727cd4')/settings('1')/settingDefinitions/$ref",
+      "settingDefinitions@odata.navigationLink": "https://graph.microsoft.com/beta/deviceManagement/configurationPolicies('f285943a-ed2e-486a-8a00-187e8a727cd4')/settings('1')/settingDefinitions"
+    },
+    {
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationSetting",
+      "@odata.id": "deviceManagement/configurationPolicies('f285943a-ed2e-486a-8a00-187e8a727cd4')/settings('2')",
+      "@odata.editLink": "deviceManagement/configurationPolicies('f285943a-ed2e-486a-8a00-187e8a727cd4')/settings('2')",
+      "id": "2",
+      "settingInstance": {
+        "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+        "settingDefinitionId": "device_vendor_msft_policy_config_chromeintunev1~policy~googlechrome~extensions_extensioninstallforcelist",
+        "settingInstanceTemplateReference": null,
+        "choiceSettingValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
+          "settingValueTemplateReference": null,
+          "value": "device_vendor_msft_policy_config_chromeintunev1~policy~googlechrome~extensions_extensioninstallforcelist_1",
+          "children@odata.type": "#Collection(microsoft.graph.deviceManagementConfigurationSettingInstance)",
+          "children": [
+            {
+              "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingCollectionInstance",
+              "settingDefinitionId": "device_vendor_msft_policy_config_chromeintunev1~policy~googlechrome~extensions_extensioninstallforcelist_extensioninstallforcelistdesc",
+              "settingInstanceTemplateReference": null,
+              "simpleSettingCollectionValue@odata.type": "#Collection(microsoft.graph.deviceManagementConfigurationSimpleSettingValue)",
+              "simpleSettingCollectionValue": [
+                {
+                  "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+                  "settingValueTemplateReference": null,
+                  "value": "hokifickgkhplphjiodbggjmoafhignh"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "settingDefinitions@odata.associationLink": "https://graph.microsoft.com/beta/deviceManagement/configurationPolicies('f285943a-ed2e-486a-8a00-187e8a727cd4')/settings('2')/settingDefinitions/$ref",
+      "settingDefinitions@odata.navigationLink": "https://graph.microsoft.com/beta/deviceManagement/configurationPolicies('f285943a-ed2e-486a-8a00-187e8a727cd4')/settings('2')/settingDefinitions"
+    }
+  ],
+  "#microsoft.graph.assign": {
+    "title": "microsoft.graph.assign",
+    "target": "https://graph.microsoft.com/beta/deviceManagement/configurationPolicies('f285943a-ed2e-486a-8a00-187e8a727cd4')/microsoft.graph.assign"
+  },
+  "#microsoft.graph.clearEnrollmentTimeDeviceMembershipTarget": {
+    "title": "microsoft.graph.clearEnrollmentTimeDeviceMembershipTarget",
+    "target": "https://graph.microsoft.com/beta/deviceManagement/configurationPolicies('f285943a-ed2e-486a-8a00-187e8a727cd4')/microsoft.graph.clearEnrollmentTimeDeviceMembershipTarget"
+  },
+  "#microsoft.graph.createCopy": {
+    "title": "microsoft.graph.createCopy",
+    "target": "https://graph.microsoft.com/beta/deviceManagement/configurationPolicies('f285943a-ed2e-486a-8a00-187e8a727cd4')/microsoft.graph.createCopy"
+  },
+  "#microsoft.graph.reorder": {
+    "title": "microsoft.graph.reorder",
+    "target": "https://graph.microsoft.com/beta/deviceManagement/configurationPolicies('f285943a-ed2e-486a-8a00-187e8a727cd4')/microsoft.graph.reorder"
+  },
+  "#microsoft.graph.retrieveEnrollmentTimeDeviceMembershipTarget": {
+    "title": "microsoft.graph.retrieveEnrollmentTimeDeviceMembershipTarget",
+    "target": "https://graph.microsoft.com/beta/deviceManagement/configurationPolicies('f285943a-ed2e-486a-8a00-187e8a727cd4')/microsoft.graph.retrieveEnrollmentTimeDeviceMembershipTarget"
+  },
+  "#microsoft.graph.setEnrollmentTimeDeviceMembershipTarget": {
+    "title": "microsoft.graph.setEnrollmentTimeDeviceMembershipTarget",
+    "target": "https://graph.microsoft.com/beta/deviceManagement/configurationPolicies('f285943a-ed2e-486a-8a00-187e8a727cd4')/microsoft.graph.setEnrollmentTimeDeviceMembershipTarget"
+  },
+  "#microsoft.graph.retrieveLatestUpgradeDefaultBaselinePolicy": {
+    "title": "microsoft.graph.retrieveLatestUpgradeDefaultBaselinePolicy",
+    "target": "https://graph.microsoft.com/beta/deviceManagement/configurationPolicies('f285943a-ed2e-486a-8a00-187e8a727cd4')/microsoft.graph.retrieveLatestUpgradeDefaultBaselinePolicy"
+  }
+}

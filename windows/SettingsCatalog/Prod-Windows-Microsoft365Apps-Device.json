@@ -1,0 +1,244 @@
+{
+  "@odata.context": "https://graph.microsoft.com/beta/$metadata#deviceManagement/configurationPolicies(assignments(),settings())/$entity",
+  "@odata.type": "#microsoft.graph.deviceManagementConfigurationPolicy",
+  "@odata.id": "deviceManagement/configurationPolicies('b3a75409-a817-491d-be39-0fdf7d17bebd')",
+  "@odata.editLink": "deviceManagement/configurationPolicies('b3a75409-a817-491d-be39-0fdf7d17bebd')",
+  "createdDateTime@odata.type": "#DateTimeOffset",
+  "createdDateTime": "2025-03-06T03:09:37.9889049Z",
+  "creationSource": null,
+  "description": "Configure Microsoft 365 Apps settings - validate channel. Assumes a single Microsoft 365 Apps package has been deployed, incluing Project and Visio.\n\nApply to All Devices / filters or device groups.",
+  "lastModifiedDateTime@odata.type": "#DateTimeOffset",
+  "lastModifiedDateTime": "2025-03-06T03:09:37.9889049Z",
+  "name": "Prod-Windows-Microsoft365Apps-Device",
+  "platforms@odata.type": "#microsoft.graph.deviceManagementConfigurationPlatforms",
+  "platforms": "windows10",
+  "priorityMetaData": null,
+  "roleScopeTagIds@odata.type": "#Collection(String)",
+  "roleScopeTagIds": [
+    "0"
+  ],
+  "settingCount": 7,
+  "technologies@odata.type": "#microsoft.graph.deviceManagementConfigurationTechnologies",
+  "technologies": "mdm",
+  "id": "b3a75409-a817-491d-be39-0fdf7d17bebd",
+  "templateReference": {
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationPolicyTemplateReference",
+    "templateId": "",
+    "templateFamily@odata.type": "#microsoft.graph.deviceManagementConfigurationTemplateFamily",
+    "templateFamily": "none",
+    "templateDisplayName": null,
+    "templateDisplayVersion": null
+  },
+  "assignments@odata.context": "https://graph.microsoft.com/beta/$metadata#deviceManagement/configurationPolicies('b3a75409-a817-491d-be39-0fdf7d17bebd')/assignments",
+  "assignments@odata.associationLink": "https://graph.microsoft.com/beta/deviceManagement/configurationPolicies('b3a75409-a817-491d-be39-0fdf7d17bebd')/assignments/$ref",
+  "assignments@odata.navigationLink": "https://graph.microsoft.com/beta/deviceManagement/configurationPolicies('b3a75409-a817-491d-be39-0fdf7d17bebd')/assignments",
+  "assignments": [
+    {
+      "id": "b3a75409-a817-491d-be39-0fdf7d17bebd_adadadad-808e-44e2-905a-0b7873a8a531",
+      "source": "direct",
+      "sourceId": "b3a75409-a817-491d-be39-0fdf7d17bebd",
+      "target": {
+        "@odata.type": "#microsoft.graph.allDevicesAssignmentTarget",
+        "deviceAndAppManagementAssignmentFilterId": null,
+        "deviceAndAppManagementAssignmentFilterType": "none"
+      }
+    }
+  ],
+  "settings@odata.context": "https://graph.microsoft.com/beta/$metadata#deviceManagement/configurationPolicies('b3a75409-a817-491d-be39-0fdf7d17bebd')/settings",
+  "settings@odata.associationLink": "https://graph.microsoft.com/beta/deviceManagement/configurationPolicies('b3a75409-a817-491d-be39-0fdf7d17bebd')/settings/$ref",
+  "settings@odata.navigationLink": "https://graph.microsoft.com/beta/deviceManagement/configurationPolicies('b3a75409-a817-491d-be39-0fdf7d17bebd')/settings",
+  "settings": [
+    {
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationSetting",
+      "@odata.id": "deviceManagement/configurationPolicies('b3a75409-a817-491d-be39-0fdf7d17bebd')/settings('0')",
+      "@odata.editLink": "deviceManagement/configurationPolicies('b3a75409-a817-491d-be39-0fdf7d17bebd')/settings('0')",
+      "id": "0",
+      "settingInstance": {
+        "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+        "settingDefinitionId": "device_vendor_msft_policy_config_office16v3~policy~l_microsoftofficemachine~l_globaloptionsmachine~l_customizemachine_l_defaultuithememachine",
+        "settingInstanceTemplateReference": null,
+        "choiceSettingValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
+          "settingValueTemplateReference": null,
+          "value": "device_vendor_msft_policy_config_office16v3~policy~l_microsoftofficemachine~l_globaloptionsmachine~l_customizemachine_l_defaultuithememachine_1",
+          "children@odata.type": "#Collection(microsoft.graph.deviceManagementConfigurationSettingInstance)",
+          "children": [
+            {
+              "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+              "settingDefinitionId": "device_vendor_msft_policy_config_office16v3~policy~l_microsoftofficemachine~l_globaloptionsmachine~l_customizemachine_l_defaultuithememachine_l_defaultuithemeenum",
+              "settingInstanceTemplateReference": null,
+              "choiceSettingValue": {
+                "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
+                "settingValueTemplateReference": null,
+                "value": "device_vendor_msft_policy_config_office16v3~policy~l_microsoftofficemachine~l_globaloptionsmachine~l_customizemachine_l_defaultuithememachine_l_defaultuithemeenum_0",
+                "children@odata.type": "#Collection(microsoft.graph.deviceManagementConfigurationSettingInstance)",
+                "children": []
+              }
+            }
+          ]
+        }
+      },
+      "settingDefinitions@odata.associationLink": "https://graph.microsoft.com/beta/deviceManagement/configurationPolicies('b3a75409-a817-491d-be39-0fdf7d17bebd')/settings('0')/settingDefinitions/$ref",
+      "settingDefinitions@odata.navigationLink": "https://graph.microsoft.com/beta/deviceManagement/configurationPolicies('b3a75409-a817-491d-be39-0fdf7d17bebd')/settings('0')/settingDefinitions"
+    },
+    {
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationSetting",
+      "@odata.id": "deviceManagement/configurationPolicies('b3a75409-a817-491d-be39-0fdf7d17bebd')/settings('1')",
+      "@odata.editLink": "deviceManagement/configurationPolicies('b3a75409-a817-491d-be39-0fdf7d17bebd')/settings('1')",
+      "id": "1",
+      "settingInstance": {
+        "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+        "settingDefinitionId": "device_vendor_msft_policy_config_office16v6~policy~l_microsoftofficemachine~l_licensingsettings_l_viewermode",
+        "settingInstanceTemplateReference": null,
+        "choiceSettingValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
+          "settingValueTemplateReference": null,
+          "value": "device_vendor_msft_policy_config_office16v6~policy~l_microsoftofficemachine~l_licensingsettings_l_viewermode_1",
+          "children@odata.type": "#Collection(microsoft.graph.deviceManagementConfigurationSettingInstance)",
+          "children": []
+        }
+      },
+      "settingDefinitions@odata.associationLink": "https://graph.microsoft.com/beta/deviceManagement/configurationPolicies('b3a75409-a817-491d-be39-0fdf7d17bebd')/settings('1')/settingDefinitions/$ref",
+      "settingDefinitions@odata.navigationLink": "https://graph.microsoft.com/beta/deviceManagement/configurationPolicies('b3a75409-a817-491d-be39-0fdf7d17bebd')/settings('1')/settingDefinitions"
+    },
+    {
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationSetting",
+      "@odata.id": "deviceManagement/configurationPolicies('b3a75409-a817-491d-be39-0fdf7d17bebd')/settings('2')",
+      "@odata.editLink": "deviceManagement/configurationPolicies('b3a75409-a817-491d-be39-0fdf7d17bebd')/settings('2')",
+      "id": "2",
+      "settingInstance": {
+        "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+        "settingDefinitionId": "device_vendor_msft_policy_config_office16v5~policy~l_microsoftofficemachine~l_updates_l_preventbinginstall",
+        "settingInstanceTemplateReference": null,
+        "choiceSettingValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
+          "settingValueTemplateReference": null,
+          "value": "device_vendor_msft_policy_config_office16v5~policy~l_microsoftofficemachine~l_updates_l_preventbinginstall_1",
+          "children@odata.type": "#Collection(microsoft.graph.deviceManagementConfigurationSettingInstance)",
+          "children": []
+        }
+      },
+      "settingDefinitions@odata.associationLink": "https://graph.microsoft.com/beta/deviceManagement/configurationPolicies('b3a75409-a817-491d-be39-0fdf7d17bebd')/settings('2')/settingDefinitions/$ref",
+      "settingDefinitions@odata.navigationLink": "https://graph.microsoft.com/beta/deviceManagement/configurationPolicies('b3a75409-a817-491d-be39-0fdf7d17bebd')/settings('2')/settingDefinitions"
+    },
+    {
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationSetting",
+      "@odata.id": "deviceManagement/configurationPolicies('b3a75409-a817-491d-be39-0fdf7d17bebd')/settings('3')",
+      "@odata.editLink": "deviceManagement/configurationPolicies('b3a75409-a817-491d-be39-0fdf7d17bebd')/settings('3')",
+      "id": "3",
+      "settingInstance": {
+        "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+        "settingDefinitionId": "device_vendor_msft_policy_config_office16v2~policy~l_microsoftofficemachine~l_updates_l_enableautomaticupdates",
+        "settingInstanceTemplateReference": null,
+        "choiceSettingValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
+          "settingValueTemplateReference": null,
+          "value": "device_vendor_msft_policy_config_office16v2~policy~l_microsoftofficemachine~l_updates_l_enableautomaticupdates_1",
+          "children@odata.type": "#Collection(microsoft.graph.deviceManagementConfigurationSettingInstance)",
+          "children": []
+        }
+      },
+      "settingDefinitions@odata.associationLink": "https://graph.microsoft.com/beta/deviceManagement/configurationPolicies('b3a75409-a817-491d-be39-0fdf7d17bebd')/settings('3')/settingDefinitions/$ref",
+      "settingDefinitions@odata.navigationLink": "https://graph.microsoft.com/beta/deviceManagement/configurationPolicies('b3a75409-a817-491d-be39-0fdf7d17bebd')/settings('3')/settingDefinitions"
+    },
+    {
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationSetting",
+      "@odata.id": "deviceManagement/configurationPolicies('b3a75409-a817-491d-be39-0fdf7d17bebd')/settings('4')",
+      "@odata.editLink": "deviceManagement/configurationPolicies('b3a75409-a817-491d-be39-0fdf7d17bebd')/settings('4')",
+      "id": "4",
+      "settingInstance": {
+        "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+        "settingDefinitionId": "device_vendor_msft_policy_config_office16v2~policy~l_microsoftofficemachine~l_updates_l_hideenabledisableupdates",
+        "settingInstanceTemplateReference": null,
+        "choiceSettingValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
+          "settingValueTemplateReference": null,
+          "value": "device_vendor_msft_policy_config_office16v2~policy~l_microsoftofficemachine~l_updates_l_hideenabledisableupdates_1",
+          "children@odata.type": "#Collection(microsoft.graph.deviceManagementConfigurationSettingInstance)",
+          "children": []
+        }
+      },
+      "settingDefinitions@odata.associationLink": "https://graph.microsoft.com/beta/deviceManagement/configurationPolicies('b3a75409-a817-491d-be39-0fdf7d17bebd')/settings('4')/settingDefinitions/$ref",
+      "settingDefinitions@odata.navigationLink": "https://graph.microsoft.com/beta/deviceManagement/configurationPolicies('b3a75409-a817-491d-be39-0fdf7d17bebd')/settings('4')/settingDefinitions"
+    },
+    {
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationSetting",
+      "@odata.id": "deviceManagement/configurationPolicies('b3a75409-a817-491d-be39-0fdf7d17bebd')/settings('5')",
+      "@odata.editLink": "deviceManagement/configurationPolicies('b3a75409-a817-491d-be39-0fdf7d17bebd')/settings('5')",
+      "id": "5",
+      "settingInstance": {
+        "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+        "settingDefinitionId": "device_vendor_msft_policy_config_office16v2~policy~l_microsoftofficemachine~l_updates_l_updatedeadline",
+        "settingInstanceTemplateReference": null,
+        "choiceSettingValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
+          "settingValueTemplateReference": null,
+          "value": "device_vendor_msft_policy_config_office16v2~policy~l_microsoftofficemachine~l_updates_l_updatedeadline_1",
+          "children@odata.type": "#Collection(microsoft.graph.deviceManagementConfigurationSettingInstance)",
+          "children": [
+            {
+              "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingInstance",
+              "settingDefinitionId": "device_vendor_msft_policy_config_office16v2~policy~l_microsoftofficemachine~l_updates_l_updatedeadline_l_updatedeadlineid",
+              "settingInstanceTemplateReference": null,
+              "simpleSettingValue": {
+                "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+                "settingValueTemplateReference": null,
+                "value": "0"
+              }
+            }
+          ]
+        }
+      },
+      "settingDefinitions@odata.associationLink": "https://graph.microsoft.com/beta/deviceManagement/configurationPolicies('b3a75409-a817-491d-be39-0fdf7d17bebd')/settings('5')/settingDefinitions/$ref",
+      "settingDefinitions@odata.navigationLink": "https://graph.microsoft.com/beta/deviceManagement/configurationPolicies('b3a75409-a817-491d-be39-0fdf7d17bebd')/settings('5')/settingDefinitions"
+    },
+    {
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationSetting",
+      "@odata.id": "deviceManagement/configurationPolicies('b3a75409-a817-491d-be39-0fdf7d17bebd')/settings('6')",
+      "@odata.editLink": "deviceManagement/configurationPolicies('b3a75409-a817-491d-be39-0fdf7d17bebd')/settings('6')",
+      "id": "6",
+      "settingInstance": {
+        "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+        "settingDefinitionId": "user_vendor_msft_policy_config_outlk16v2~policy~l_microsoftofficeoutlook~l_toolsaccounts~l_exchangesettings_l_automaticallyconfigureprofilebasedonactive",
+        "settingInstanceTemplateReference": null,
+        "choiceSettingValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
+          "settingValueTemplateReference": null,
+          "value": "user_vendor_msft_policy_config_outlk16v2~policy~l_microsoftofficeoutlook~l_toolsaccounts~l_exchangesettings_l_automaticallyconfigureprofilebasedonactive_1",
+          "children@odata.type": "#Collection(microsoft.graph.deviceManagementConfigurationSettingInstance)",
+          "children": []
+        }
+      },
+      "settingDefinitions@odata.associationLink": "https://graph.microsoft.com/beta/deviceManagement/configurationPolicies('b3a75409-a817-491d-be39-0fdf7d17bebd')/settings('6')/settingDefinitions/$ref",
+      "settingDefinitions@odata.navigationLink": "https://graph.microsoft.com/beta/deviceManagement/configurationPolicies('b3a75409-a817-491d-be39-0fdf7d17bebd')/settings('6')/settingDefinitions"
+    }
+  ],
+  "#microsoft.graph.assign": {
+    "title": "microsoft.graph.assign",
+    "target": "https://graph.microsoft.com/beta/deviceManagement/configurationPolicies('b3a75409-a817-491d-be39-0fdf7d17bebd')/microsoft.graph.assign"
+  },
+  "#microsoft.graph.clearEnrollmentTimeDeviceMembershipTarget": {
+    "title": "microsoft.graph.clearEnrollmentTimeDeviceMembershipTarget",
+    "target": "https://graph.microsoft.com/beta/deviceManagement/configurationPolicies('b3a75409-a817-491d-be39-0fdf7d17bebd')/microsoft.graph.clearEnrollmentTimeDeviceMembershipTarget"
+  },
+  "#microsoft.graph.createCopy": {
+    "title": "microsoft.graph.createCopy",
+    "target": "https://graph.microsoft.com/beta/deviceManagement/configurationPolicies('b3a75409-a817-491d-be39-0fdf7d17bebd')/microsoft.graph.createCopy"
+  },
+  "#microsoft.graph.reorder": {
+    "title": "microsoft.graph.reorder",
+    "target": "https://graph.microsoft.com/beta/deviceManagement/configurationPolicies('b3a75409-a817-491d-be39-0fdf7d17bebd')/microsoft.graph.reorder"
+  },
+  "#microsoft.graph.retrieveEnrollmentTimeDeviceMembershipTarget": {
+    "title": "microsoft.graph.retrieveEnrollmentTimeDeviceMembershipTarget",
+    "target": "https://graph.microsoft.com/beta/deviceManagement/configurationPolicies('b3a75409-a817-491d-be39-0fdf7d17bebd')/microsoft.graph.retrieveEnrollmentTimeDeviceMembershipTarget"
+  },
+  "#microsoft.graph.setEnrollmentTimeDeviceMembershipTarget": {
+    "title": "microsoft.graph.setEnrollmentTimeDeviceMembershipTarget",
+    "target": "https://graph.microsoft.com/beta/deviceManagement/configurationPolicies('b3a75409-a817-491d-be39-0fdf7d17bebd')/microsoft.graph.setEnrollmentTimeDeviceMembershipTarget"
+  },
+  "#microsoft.graph.retrieveLatestUpgradeDefaultBaselinePolicy": {
+    "title": "microsoft.graph.retrieveLatestUpgradeDefaultBaselinePolicy",
+    "target": "https://graph.microsoft.com/beta/deviceManagement/configurationPolicies('b3a75409-a817-491d-be39-0fdf7d17bebd')/microsoft.graph.retrieveLatestUpgradeDefaultBaselinePolicy"
+  }
+}
