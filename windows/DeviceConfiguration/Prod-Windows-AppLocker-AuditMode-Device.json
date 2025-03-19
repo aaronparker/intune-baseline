@@ -5,7 +5,7 @@
   "@odata.editLink": "deviceManagement/deviceConfigurations('48c69e85-abae-4fd5-b5ed-4b86ca1bae2f')/microsoft.graph.windows10CustomConfiguration",
   "id": "48c69e85-abae-4fd5-b5ed-4b86ca1bae2f",
   "lastModifiedDateTime@odata.type": "#DateTimeOffset",
-  "lastModifiedDateTime": "2025-03-06T03:09:59.4447278Z",
+  "lastModifiedDateTime": "2025-03-19T23:16:22.2196937Z",
   "roleScopeTagIds@odata.type": "#Collection(String)",
   "roleScopeTagIds": [
     "0",
@@ -18,8 +18,8 @@
   "createdDateTime@odata.type": "#DateTimeOffset",
   "createdDateTime": "2025-03-06T03:09:59.4447278Z",
   "description": "Places devices into AppLocker audit mode. Note issues documented here: https://docs.microsoft.com/en-us/mem/autopilot/policy-conflicts",
-  "displayName": "Prod-Windows-AppLocker-AuditMode",
-  "version": 1,
+  "displayName": "Prod-Windows-AppLocker-AuditMode-Device",
+  "version": 2,
   "omaSettings@odata.type": "#Collection(microsoft.graph.omaSetting)",
   "omaSettings": [
     {

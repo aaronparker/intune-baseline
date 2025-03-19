@@ -8,8 +8,8 @@
   "creationSource": null,
   "description": "Windows Firewall settings",
   "lastModifiedDateTime@odata.type": "#DateTimeOffset",
-  "lastModifiedDateTime": "2025-03-06T03:09:34.3929648Z",
-  "name": "Prod-Windows-EnableFirewall",
+  "lastModifiedDateTime": "2025-03-19T23:15:49.9297629Z",
+  "name": "Prod-Windows-EnableFirewall-Device",
   "platforms@odata.type": "#microsoft.graph.deviceManagementConfigurationPlatforms",
   "platforms": "windows10",
   "priorityMetaData": null,
@@ -32,18 +32,6 @@
   "assignments@odata.context": "https://graph.microsoft.com/beta/$metadata#deviceManagement/configurationPolicies('4c9e1add-6b78-4218-b991-9f7e0e2f5a39')/assignments",
   "assignments@odata.associationLink": "https://graph.microsoft.com/beta/deviceManagement/configurationPolicies('4c9e1add-6b78-4218-b991-9f7e0e2f5a39')/assignments/$ref",
   "assignments@odata.navigationLink": "https://graph.microsoft.com/beta/deviceManagement/configurationPolicies('4c9e1add-6b78-4218-b991-9f7e0e2f5a39')/assignments",
-  "assignments": [
-    {
-      "id": "4c9e1add-6b78-4218-b991-9f7e0e2f5a39_adadadad-808e-44e2-905a-0b7873a8a531",
-      "source": "direct",
-      "sourceId": "4c9e1add-6b78-4218-b991-9f7e0e2f5a39",
-      "target": {
-        "@odata.type": "#microsoft.graph.allDevicesAssignmentTarget",
-        "deviceAndAppManagementAssignmentFilterId": null,
-        "deviceAndAppManagementAssignmentFilterType": "none"
-      }
-    }
-  ],
   "settings@odata.context": "https://graph.microsoft.com/beta/$metadata#deviceManagement/configurationPolicies('4c9e1add-6b78-4218-b991-9f7e0e2f5a39')/settings",
   "settings@odata.associationLink": "https://graph.microsoft.com/beta/deviceManagement/configurationPolicies('4c9e1add-6b78-4218-b991-9f7e0e2f5a39')/settings/$ref",
   "settings@odata.navigationLink": "https://graph.microsoft.com/beta/deviceManagement/configurationPolicies('4c9e1add-6b78-4218-b991-9f7e0e2f5a39')/settings",

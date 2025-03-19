@@ -6,9 +6,9 @@
   "createdDateTime@odata.type": "#DateTimeOffset",
   "createdDateTime": "2025-03-06T03:09:43.3551178Z",
   "creationSource": null,
-  "description": "Configures extension settings in Microsoft Edge - prevents users from adding extensions, and configures a list of force installed extensions",
+  "description": "Configures extension settings in Microsoft Edge - prevents users from adding extensions, and configures a list of force installed extensions.\n\nAdds: Microsoft Editor, uBlock Origin, My Apps Secure Sign-in Extension, Microsoft Multimedia Redirection. Also enables the Edge sidebar & Copilot default extensions.",
   "lastModifiedDateTime@odata.type": "#DateTimeOffset",
-  "lastModifiedDateTime": "2025-03-06T03:09:43.3551178Z",
+  "lastModifiedDateTime": "2025-03-19T23:14:10.6817364Z",
   "name": "Prod-Windows-MicrosoftEdge-Extensions-Device",
   "platforms@odata.type": "#microsoft.graph.deviceManagementConfigurationPlatforms",
   "platforms": "windows10",
@@ -32,18 +32,6 @@
   "assignments@odata.context": "https://graph.microsoft.com/beta/$metadata#deviceManagement/configurationPolicies('77151f70-86bb-4da3-adf8-bf6dc9fceb34')/assignments",
   "assignments@odata.associationLink": "https://graph.microsoft.com/beta/deviceManagement/configurationPolicies('77151f70-86bb-4da3-adf8-bf6dc9fceb34')/assignments/$ref",
   "assignments@odata.navigationLink": "https://graph.microsoft.com/beta/deviceManagement/configurationPolicies('77151f70-86bb-4da3-adf8-bf6dc9fceb34')/assignments",
-  "assignments": [
-    {
-      "id": "77151f70-86bb-4da3-adf8-bf6dc9fceb34_adadadad-808e-44e2-905a-0b7873a8a531",
-      "source": "direct",
-      "sourceId": "77151f70-86bb-4da3-adf8-bf6dc9fceb34",
-      "target": {
-        "@odata.type": "#microsoft.graph.allDevicesAssignmentTarget",
-        "deviceAndAppManagementAssignmentFilterId": null,
-        "deviceAndAppManagementAssignmentFilterType": "none"
-      }
-    }
-  ],
   "settings@odata.context": "https://graph.microsoft.com/beta/$metadata#deviceManagement/configurationPolicies('77151f70-86bb-4da3-adf8-bf6dc9fceb34')/settings",
   "settings@odata.associationLink": "https://graph.microsoft.com/beta/deviceManagement/configurationPolicies('77151f70-86bb-4da3-adf8-bf6dc9fceb34')/settings/$ref",
   "settings@odata.navigationLink": "https://graph.microsoft.com/beta/deviceManagement/configurationPolicies('77151f70-86bb-4da3-adf8-bf6dc9fceb34')/settings",

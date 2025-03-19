@@ -70,26 +70,6 @@
   "assignments@odata.context": "https://graph.microsoft.com/beta/$metadata#deviceManagement/deviceConfigurations('fcf3d90f-1217-4fcd-af2b-ea4fcbe49181')/microsoft.graph.windowsUpdateForBusinessConfiguration/assignments",
   "assignments@odata.associationLink": "https://graph.microsoft.com/beta/deviceManagement/deviceConfigurations('fcf3d90f-1217-4fcd-af2b-ea4fcbe49181')/microsoft.graph.windowsUpdateForBusinessConfiguration/assignments/$ref",
   "assignments@odata.navigationLink": "https://graph.microsoft.com/beta/deviceManagement/deviceConfigurations('fcf3d90f-1217-4fcd-af2b-ea4fcbe49181')/microsoft.graph.windowsUpdateForBusinessConfiguration/assignments",
-  "assignments": [
-    {
-      "@odata.type": "#microsoft.graph.deviceConfigurationAssignment",
-      "@odata.id": "deviceManagement/deviceConfigurations('fcf3d90f-1217-4fcd-af2b-ea4fcbe49181')/assignments('fcf3d90f-1217-4fcd-af2b-ea4fcbe49181_0538b8de-7029-41e7-a163-e5b2f68e6e53')",
-      "@odata.editLink": "deviceManagement/deviceConfigurations('fcf3d90f-1217-4fcd-af2b-ea4fcbe49181')/assignments('fcf3d90f-1217-4fcd-af2b-ea4fcbe49181_0538b8de-7029-41e7-a163-e5b2f68e6e53')",
-      "id": "fcf3d90f-1217-4fcd-af2b-ea4fcbe49181_0538b8de-7029-41e7-a163-e5b2f68e6e53",
-      "source@odata.type": "#microsoft.graph.deviceAndAppManagementAssignmentSource",
-      "source": "direct",
-      "sourceId": "fcf3d90f-1217-4fcd-af2b-ea4fcbe49181",
-      "intent@odata.type": "#microsoft.graph.deviceConfigAssignmentIntent",
-      "intent": "apply",
-      "target": {
-        "@odata.type": "#microsoft.graph.exclusionGroupAssignmentTarget",
-        "deviceAndAppManagementAssignmentFilterId": null,
-        "deviceAndAppManagementAssignmentFilterType@odata.type": "#microsoft.graph.deviceAndAppManagementAssignmentFilterType",
-        "deviceAndAppManagementAssignmentFilterType": "none",
-        "groupId": "0538b8de-7029-41e7-a163-e5b2f68e6e53"
-      }
-    }
-  ],
   "deviceSettingStateSummaries@odata.associationLink": "https://graph.microsoft.com/beta/deviceManagement/deviceConfigurations('fcf3d90f-1217-4fcd-af2b-ea4fcbe49181')/microsoft.graph.windowsUpdateForBusinessConfiguration/deviceSettingStateSummaries/$ref",
   "deviceSettingStateSummaries@odata.navigationLink": "https://graph.microsoft.com/beta/deviceManagement/deviceConfigurations('fcf3d90f-1217-4fcd-af2b-ea4fcbe49181')/microsoft.graph.windowsUpdateForBusinessConfiguration/deviceSettingStateSummaries",
   "deviceStatuses@odata.associationLink": "https://graph.microsoft.com/beta/deviceManagement/deviceConfigurations('fcf3d90f-1217-4fcd-af2b-ea4fcbe49181')/microsoft.graph.windowsUpdateForBusinessConfiguration/deviceStatuses/$ref",

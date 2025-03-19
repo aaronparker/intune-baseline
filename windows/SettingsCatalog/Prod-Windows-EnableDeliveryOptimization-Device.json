@@ -6,9 +6,9 @@
   "createdDateTime@odata.type": "#DateTimeOffset",
   "createdDateTime": "2025-03-06T03:09:33.6254461Z",
   "creationSource": null,
-  "description": "Windows 10/11 Delivery Optimization settings.\n\nApply to All Devices / filters or device groups.",
+  "description": "Windows 10/11 Delivery Optimization settings. Validate Windows Autopilot and application deployment functionality after applying to devices.\n\nApply to All Devices / filters or device groups.",
   "lastModifiedDateTime@odata.type": "#DateTimeOffset",
-  "lastModifiedDateTime": "2025-03-06T03:09:33.6254461Z",
+  "lastModifiedDateTime": "2025-03-19T23:01:16.3598957Z",
   "name": "Prod-Windows-EnableDeliveryOptimization-Device",
   "platforms@odata.type": "#microsoft.graph.deviceManagementConfigurationPlatforms",
   "platforms": "windows10",
@@ -32,18 +32,6 @@
   "assignments@odata.context": "https://graph.microsoft.com/beta/$metadata#deviceManagement/configurationPolicies('85d2ac99-1a5f-4ccb-a088-666c620929a5')/assignments",
   "assignments@odata.associationLink": "https://graph.microsoft.com/beta/deviceManagement/configurationPolicies('85d2ac99-1a5f-4ccb-a088-666c620929a5')/assignments/$ref",
   "assignments@odata.navigationLink": "https://graph.microsoft.com/beta/deviceManagement/configurationPolicies('85d2ac99-1a5f-4ccb-a088-666c620929a5')/assignments",
-  "assignments": [
-    {
-      "id": "85d2ac99-1a5f-4ccb-a088-666c620929a5_adadadad-808e-44e2-905a-0b7873a8a531",
-      "source": "direct",
-      "sourceId": "85d2ac99-1a5f-4ccb-a088-666c620929a5",
-      "target": {
-        "@odata.type": "#microsoft.graph.allDevicesAssignmentTarget",
-        "deviceAndAppManagementAssignmentFilterId": null,
-        "deviceAndAppManagementAssignmentFilterType": "none"
-      }
-    }
-  ],
   "settings@odata.context": "https://graph.microsoft.com/beta/$metadata#deviceManagement/configurationPolicies('85d2ac99-1a5f-4ccb-a088-666c620929a5')/settings",
   "settings@odata.associationLink": "https://graph.microsoft.com/beta/deviceManagement/configurationPolicies('85d2ac99-1a5f-4ccb-a088-666c620929a5')/settings/$ref",
   "settings@odata.navigationLink": "https://graph.microsoft.com/beta/deviceManagement/configurationPolicies('85d2ac99-1a5f-4ccb-a088-666c620929a5')/settings",

@@ -32,18 +32,6 @@
   "assignments@odata.context": "https://graph.microsoft.com/beta/$metadata#deviceManagement/configurationPolicies('c6b617c0-2a33-4518-ade3-4991adf4236c')/assignments",
   "assignments@odata.associationLink": "https://graph.microsoft.com/beta/deviceManagement/configurationPolicies('c6b617c0-2a33-4518-ade3-4991adf4236c')/assignments/$ref",
   "assignments@odata.navigationLink": "https://graph.microsoft.com/beta/deviceManagement/configurationPolicies('c6b617c0-2a33-4518-ade3-4991adf4236c')/assignments",
-  "assignments": [
-    {
-      "id": "c6b617c0-2a33-4518-ade3-4991adf4236c_acacacac-9df4-4c7d-9d50-4ef0226f57a9",
-      "source": "direct",
-      "sourceId": "c6b617c0-2a33-4518-ade3-4991adf4236c",
-      "target": {
-        "@odata.type": "#microsoft.graph.allLicensedUsersAssignmentTarget",
-        "deviceAndAppManagementAssignmentFilterId": null,
-        "deviceAndAppManagementAssignmentFilterType": "none"
-      }
-    }
-  ],
   "settings@odata.context": "https://graph.microsoft.com/beta/$metadata#deviceManagement/configurationPolicies('c6b617c0-2a33-4518-ade3-4991adf4236c')/settings",
   "settings@odata.associationLink": "https://graph.microsoft.com/beta/deviceManagement/configurationPolicies('c6b617c0-2a33-4518-ade3-4991adf4236c')/settings/$ref",
   "settings@odata.navigationLink": "https://graph.microsoft.com/beta/deviceManagement/configurationPolicies('c6b617c0-2a33-4518-ade3-4991adf4236c')/settings",

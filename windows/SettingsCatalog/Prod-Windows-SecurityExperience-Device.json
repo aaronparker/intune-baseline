@@ -8,8 +8,8 @@
   "creationSource": null,
   "description": "Windows Security Center settings and support contact into. Assign to 'All Users'",
   "lastModifiedDateTime@odata.type": "#DateTimeOffset",
-  "lastModifiedDateTime": "2025-03-06T03:09:45.1388777Z",
-  "name": "Prod-Windows-SecurityExperience",
+  "lastModifiedDateTime": "2025-03-19T23:15:17.7209131Z",
+  "name": "Prod-Windows-SecurityExperience-Device",
   "platforms@odata.type": "#microsoft.graph.deviceManagementConfigurationPlatforms",
   "platforms": "windows10",
   "priorityMetaData": null,
@@ -32,18 +32,6 @@
   "assignments@odata.context": "https://graph.microsoft.com/beta/$metadata#deviceManagement/configurationPolicies('e79fc161-e57f-45d5-9e83-bf3cf8f5af88')/assignments",
   "assignments@odata.associationLink": "https://graph.microsoft.com/beta/deviceManagement/configurationPolicies('e79fc161-e57f-45d5-9e83-bf3cf8f5af88')/assignments/$ref",
   "assignments@odata.navigationLink": "https://graph.microsoft.com/beta/deviceManagement/configurationPolicies('e79fc161-e57f-45d5-9e83-bf3cf8f5af88')/assignments",
-  "assignments": [
-    {
-      "id": "e79fc161-e57f-45d5-9e83-bf3cf8f5af88_adadadad-808e-44e2-905a-0b7873a8a531",
-      "source": "direct",
-      "sourceId": "e79fc161-e57f-45d5-9e83-bf3cf8f5af88",
-      "target": {
-        "@odata.type": "#microsoft.graph.allDevicesAssignmentTarget",
-        "deviceAndAppManagementAssignmentFilterId": null,
-        "deviceAndAppManagementAssignmentFilterType": "none"
-      }
-    }
-  ],
   "settings@odata.context": "https://graph.microsoft.com/beta/$metadata#deviceManagement/configurationPolicies('e79fc161-e57f-45d5-9e83-bf3cf8f5af88')/settings",
   "settings@odata.associationLink": "https://graph.microsoft.com/beta/deviceManagement/configurationPolicies('e79fc161-e57f-45d5-9e83-bf3cf8f5af88')/settings/$ref",
   "settings@odata.navigationLink": "https://graph.microsoft.com/beta/deviceManagement/configurationPolicies('e79fc161-e57f-45d5-9e83-bf3cf8f5af88')/settings",

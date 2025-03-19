@@ -8,8 +8,8 @@
   "creationSource": null,
   "description": "Configures Microsoft Defender update channels",
   "lastModifiedDateTime@odata.type": "#DateTimeOffset",
-  "lastModifiedDateTime": "2025-03-06T03:09:41.4241898Z",
-  "name": "Prod-Windows-MicrosoftDefenderUpdateControls",
+  "lastModifiedDateTime": "2025-03-19T23:15:27.4216229Z",
+  "name": "Prod-Windows-MicrosoftDefenderUpdateControls-Device",
   "platforms@odata.type": "#microsoft.graph.deviceManagementConfigurationPlatforms",
   "platforms": "windows10",
   "priorityMetaData": null,
@@ -32,18 +32,6 @@
   "assignments@odata.context": "https://graph.microsoft.com/beta/$metadata#deviceManagement/configurationPolicies('15b838c8-cb71-4122-a8a9-43bd05980e18')/assignments",
   "assignments@odata.associationLink": "https://graph.microsoft.com/beta/deviceManagement/configurationPolicies('15b838c8-cb71-4122-a8a9-43bd05980e18')/assignments/$ref",
   "assignments@odata.navigationLink": "https://graph.microsoft.com/beta/deviceManagement/configurationPolicies('15b838c8-cb71-4122-a8a9-43bd05980e18')/assignments",
-  "assignments": [
-    {
-      "id": "15b838c8-cb71-4122-a8a9-43bd05980e18_adadadad-808e-44e2-905a-0b7873a8a531",
-      "source": "direct",
-      "sourceId": "15b838c8-cb71-4122-a8a9-43bd05980e18",
-      "target": {
-        "@odata.type": "#microsoft.graph.allDevicesAssignmentTarget",
-        "deviceAndAppManagementAssignmentFilterId": null,
-        "deviceAndAppManagementAssignmentFilterType": "none"
-      }
-    }
-  ],
   "settings@odata.context": "https://graph.microsoft.com/beta/$metadata#deviceManagement/configurationPolicies('15b838c8-cb71-4122-a8a9-43bd05980e18')/settings",
   "settings@odata.associationLink": "https://graph.microsoft.com/beta/deviceManagement/configurationPolicies('15b838c8-cb71-4122-a8a9-43bd05980e18')/settings/$ref",
   "settings@odata.navigationLink": "https://graph.microsoft.com/beta/deviceManagement/configurationPolicies('15b838c8-cb71-4122-a8a9-43bd05980e18')/settings",
