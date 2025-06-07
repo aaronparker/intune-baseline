@@ -1,0 +1,35 @@
+name: New Release
+
+on:
+    workflow_dispatch:
+
+jobs:
+    release:
+        runs-on: ubuntu-latest
+        steps:
+            - name: Checkout repository
+              uses: actions/checkout@v4
+
+            - name: Set release tag (yy.MM.dd)
+              id: set_tag
+              run: echo "TAG=$(date +'%y.%m.%d')" >> $GITHUB_OUTPUT
+
+            - name: Compress policy directories
+              run: |
+                    zip -r intune-baseline.zip windows windows-update
+
+            - name: Create Git tag
+              run: |
+                    git config user.name "github-actions[bot]"
+                    git config user.email "github-actions[bot]@users.noreply.github.com"
+                    git tag "v${{ steps.set_tag.outputs.TAG }}.${{ github.run_number }}"
+                    git push origin "v${{ steps.set_tag.outputs.TAG }}.${{ github.run_number }}"
+
+            - name: Create GitHub Release
+              uses: softprops/action-gh-release@v2
+              with:
+                    tag_name: "v${{ steps.set_tag.outputs.TAG }}.${{ github.run_number }}"
+                    name: "v${{ steps.set_tag.outputs.TAG }}.${{ github.run_number }}"
+                    files: intune-baseline.zip
+              env:
+                    GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
