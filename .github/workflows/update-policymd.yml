@@ -10,6 +10,11 @@ jobs:
             - name: Checkout repository
               uses: actions/checkout@v4
 
+            - name: Install modules
+              shell: pwsh
+              run: |
+                Install-Module -Name "MarkdownPS" -Repository "PSGallery" -Scope "CurrentUser" -Force -AllowClobber
+
             - name: Update policy markdown
               shell: pwsh
               run: |
