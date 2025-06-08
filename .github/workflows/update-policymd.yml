@@ -18,7 +18,7 @@ jobs:
             - name: Update policy markdown
               shell: pwsh
               run: |
-                $Path = "{{ github.workspace }}/windows"
+                $Path = "${{ github.workspace }}/windows"
                 $Table = Get-ChildItem -Path $Path -Recurse -Include "*.json" |
                 ForEach-Object { 
                     $Props = Get-Content -Path $_.FullName | `
@@ -37,7 +37,7 @@ jobs:
 
                 $Table
                 "@
-                $Content | Set-Content -Path "{{ github.workspace }}/POLICIES.md"
+                $Content | Set-Content -Path "${{ github.workspace }}/POLICIES.md"
 
             - name: Commit changes
               id: commit
