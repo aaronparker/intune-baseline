@@ -4,7 +4,7 @@ on:
     workflow_dispatch:
 
 jobs:
-    release:
+    markdown:
         runs-on: ubuntu-latest
         steps:
             - name: Checkout repository
@@ -31,7 +31,7 @@ jobs:
                 # Policies
 
                 $Table
-                @"
+                "@
                 $Content | Set-Content -Path "{{ github.workspace }}/POLICIES.md"
 
             - name: Commit changes
