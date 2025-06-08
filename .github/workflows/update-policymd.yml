@@ -1,0 +1,43 @@
+name: Update policy markdown
+
+on:
+    workflow_dispatch:
+
+jobs:
+    release:
+        runs-on: ubuntu-latest
+        steps:
+            - name: Checkout repository
+              uses: actions/checkout@v4
+
+            - name: Update policy markdown
+              shell: pwsh
+              run: |
+                $Path = "{{ github.workspace }}/windows"
+                $Table = Get-ChildItem -Path $Path -Recurse -Include "*.json" |
+                ForEach-Object { 
+                    $Props = Get-Content -Path $_.FullName | `
+                        ConvertFrom-Json | `
+                        Select-Object -Property "name", "displayName", "description"
+                    if ($null -ne $Props.description) {
+                        [PSCustomObject] @{
+                            Name        = $(if ($null -eq $Props.name) { $Props.displayName } else { $Props.name })
+                            Description = $Props.description
+                        }
+                    }
+                } | New-MDTable
+                
+                $Content = @"
+                # Policies
+
+                $Table
+                @"
+                $Content | Set-Content -Path "{{ github.workspace }}/POLICIES.md"
+
+            - name: Commit changes
+              id: commit
+              uses: stefanzweifel/git-auto-commit-action@v5
+              with:
+                commit_message: "Update POLICIES.md"
+                commit_user_name: "GitHub Action"
+                commit_user_email: "git@stealthpuppy.com"
