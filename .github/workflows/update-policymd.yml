@@ -30,7 +30,7 @@ jobs:
                             Description = $Props.description
                         }
                     }
-                } | New-MDTable
+                } | New-MDTable -Shrink
                 
                 $Content = @"
                 # Policies
