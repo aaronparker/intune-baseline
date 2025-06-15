@@ -1,6 +1,11 @@
 name: Update policy markdown
 
 on:
+    push: 
+        branches:
+            - main
+        paths:
+            - "windows/**"
     workflow_dispatch:
 
 jobs:
