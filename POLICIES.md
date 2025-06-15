@@ -32,14 +32,6 @@
 | Prod-Windows-MicrosoftOneDrive-Device | Configure OneDrive for Business including SSO and Known Folder Move. Important - Update tenant GUID from the Entra ID. Apply to All Devices (optionally with filters) or Entra ID device groups. |
 | Prod-Windows-SecurityExperience-Device | Windows Security Center settings and support contact into. Apply to All Devices (optionally with filters) or Entra ID device groups. |
 | Prod-Windows-WindowsUpdateSettings-Device | Settings for Windows Update. Ensure Windows Update for Business reports have been configured for these settings to be applicable. Apply to All Devices (optionally with filters) or Entra ID device groups. |
-| Prod-Windows-QualityUpdates-Broad | Windows Update settings for broad ring Windows 10 PCs.
-
-Note: Feature update deferral is set to 0 - ensure a Feature update ring is assigned to the device.
-
-Assign to a specified group of users. May cause reboots during Autopilot if assigned to devices. |
-| Prod-Windows-QualityUpdates-First | Windows Update settings for first ring Windows 10 PCs.
-
-Note: Feature update deferral is set to 0 - ensure a Feature update ring is assigned to the device.
-
-Assign to a specified group of users. May cause reboots during Autopilot if assigned to devices. |
+| Prod-Windows-QualityUpdates-Broad | Windows Update settings for broad ring Windows 10 PCs. Note: Feature update deferral is set to 0 - ensure a Feature update ring is assigned to the device. Assign to a specified group of users. May cause reboots during Autopilot if assigned to devices. |
+| Prod-Windows-QualityUpdates-First | Windows Update settings for first ring Windows 10 PCs. Note: Feature update deferral is set to 0 - ensure a Feature update ring is assigned to the device. Assign to a specified group of users. May cause reboots during Autopilot if assigned to devices. |
 
