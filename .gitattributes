@@ -1,3 +1,2 @@
 # Auto detect text files and perform LF normalization
 *   text=auto
-.json   text   diff=utf16    working-tree-encoding=UTF-16LE eol=CRLF
