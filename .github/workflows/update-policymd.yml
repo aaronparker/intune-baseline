@@ -23,24 +23,31 @@ jobs:
             - name: Update policy markdown
               shell: pwsh
               run: |
-                $Path = "${{ github.workspace }}/windows", "${{ github.workspace }}/windows-asr", "${{ github.workspace }}/windows-applocker"
-                $Table = Get-ChildItem -Path $Path -Recurse -Include "*.json" |
-                ForEach-Object { 
-                    $Props = Get-Content -Path $_.FullName | `
-                        ConvertFrom-Json | `
-                        Select-Object -Property "name", "displayName", "description"
-                    if ($null -ne $Props.description) {
-                        [PSCustomObject] @{
-                            Name        = $(if ($null -eq $Props.name) { $Props.displayName } else { $Props.name })
-                            Description = $Props.description
+                $Paths = "${{ github.workspace }}/windows", "${{ github.workspace }}/windows-applocker", "${{ github.workspace }}/windows-asr"
+                $Tables = $Paths | ForEach-Object {
+                    $Path = $_
+                    New-MDHeader -Text $Path -Level 2
+                    "`n"
+                    Get-ChildItem -Path $Path -Recurse -Include "*.json" |
+                    ForEach-Object { 
+                        $File = $_
+                        $Props = Get-Content -Path $File.FullName | `
+                            ConvertFrom-Json | `
+                            Select-Object -Property "name", "displayName", "description"
+                        if ($null -ne $Props.description) {
+                            [PSCustomObject] @{
+                                Name        = $(if ($null -eq $Props.name) { $Props.displayName } else { $Props.name })
+                                Description = $Props.description
+                            }
                         }
-                    }
-                } | New-MDTable -Shrink
-                
+                    } | New-MDTable -Shrink
+                    "`n"
+                } 
+
                 $Content = @"
                 # Policies
 
-                $Table
+                $Tables
                 "@
                 $Content | Set-Content -Path "${{ github.workspace }}/POLICIES.md"
 
