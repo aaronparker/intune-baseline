@@ -1,6 +1,8 @@
 # Policies
 
-| Name | Description |
+## /home/runner/work/intune-baseline/intune-baseline/windows
+ 
+ | Name | Description |
 | ---- | ----------- |
 | Windows-Avd-AllSessionHosts | Filter for all Azure Virtual Desktop session hosts - single session and multi-session |
 | Windows-Avd-MultiSession | Filter for Virtual machines running Windows 10/11 multi-session on Azure Virtual Desktop |
@@ -35,9 +37,20 @@
 | Prod-Windows-WindowsUpdateSettings-Device | Settings for Windows Update. Ensure Windows Update for Business reports have been configured for these settings to be applicable. Apply to All Devices (optionally with filters) or Entra ID device groups. |
 | Prod-Windows-QualityUpdates-Broad | Windows Update settings for broad ring Windows 10 PCs. Note: Feature update deferral is set to 0 - ensure a Feature update ring is assigned to the device. Assign to a specified group of users. May cause reboots during Autopilot if assigned to devices. |
 | Prod-Windows-QualityUpdates-First | Windows Update settings for first ring Windows 10 PCs. Note: Feature update deferral is set to 0 - ensure a Feature update ring is assigned to the device. Assign to a specified group of users. May cause reboots during Autopilot if assigned to devices. |
+ 
+ ## /home/runner/work/intune-baseline/intune-baseline/windows-applocker
+ 
+ | Name | Description |
+| ---- | ----------- |
+| Prod-Windows-AppLocker-AuditMode-Device | Places devices into AppLocker audit mode. Note issues documented here: https://docs.microsoft.com/en-us/mem/autopilot/policy-conflicts. Apply to All Devices (optionally with filters) or Entra ID device groups. |
+| Prod-Windows-AppLocker-EnforcedMode-Device | Places devices into AppLocker enforced mode. Note issues documented here: https://docs.microsoft.com/en-us/mem/autopilot/policy-conflicts. Apply to All Devices (optionally with filters) or Entra ID device groups. |
+ 
+ ## /home/runner/work/intune-baseline/intune-baseline/windows-asr
+ 
+ | Name | Description |
+| ---- | ----------- |
 | 0_Prod-Windows-ASR-AllAudit-Device | All Attack Surface Reduction rules in Audit mode. https://learn.microsoft.com/en-us/defender-endpoint/attack-surface-reduction-rules-reference. Apply to All Devices (optionally with filters) or Entra ID device groups. |
 | 1_Prod-Windows-ASR-StandardBlock-Device | Standard Protection Attack Surface Reduction rules in Block mode, with all other ASR rules in Audit mode. https://learn.microsoft.com/en-us/defender-endpoint/attack-surface-reduction-rules-reference. Apply to All Devices (optionally with filters) or Entra ID device groups. |
 | 2_Prod-Windows-ASR-AllBlock-Device | Puts all rules into block mode - this includes 'Block execution of potentially obfuscated scripts' which affects AVD session hosts. https://learn.microsoft.com/en-us/defender-endpoint/attack-surface-reduction-rules-reference. Apply to All Devices (optionally with filters) or Entra ID device groups. |
-| Prod-Windows-AppLocker-AuditMode-Device | Places devices into AppLocker audit mode. Note issues documented here: https://docs.microsoft.com/en-us/mem/autopilot/policy-conflicts. Apply to All Devices (optionally with filters) or Entra ID device groups. |
-| Prod-Windows-AppLocker-EnforcedMode-Device | Places devices into AppLocker enforced mode. Note issues documented here: https://docs.microsoft.com/en-us/mem/autopilot/policy-conflicts. Apply to All Devices (optionally with filters) or Entra ID device groups. |
+ 
 
