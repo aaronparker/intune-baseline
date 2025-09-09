@@ -12,7 +12,7 @@
     "description":  "Filter for Microsoft Hyper-V, VMware Workstation / Fusion, Parallels Desktop, Oracle VirtualBox",
     "platform@odata.type":  "#microsoft.graph.devicePlatformType",
     "platform":  "windows10AndLater",
-    "rule":  "(device.manufacturer -startsWith \"Parallels\") or (device.manufacturer -startsWith \"VMware\") or (device.model -eq \"Virtual Machine\") or (device.model -eq \"VirtualBox\")",
+    "rule":  "(device.model -eq \"Virtual Machine\") or (device.manufacturer -startsWith \"Parallels\") or (device.manufacturer -startsWith \"VMware\") or (device.manufacturer -eq \"Nutanix\") or (device.manufacturer -eq \"Xen\") or (device.manufacturer -eq \"QEMU\") or (device.model -eq \"VirtualBox\")",
     "roleScopeTags@odata.type":  "#Collection(String)",
     "roleScopeTags":  [
                           "0"
