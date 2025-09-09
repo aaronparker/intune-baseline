@@ -6,6 +6,9 @@ on:
             - main
         paths:
             - "windows/**"
+            - "windows-applocker/**"
+            - "windows-asr/**"
+            - ".github/workflows/update-policymd.yml"
     workflow_dispatch:
 
 jobs:
@@ -26,7 +29,7 @@ jobs:
                 $Paths = "${{ github.workspace }}/windows", "${{ github.workspace }}/windows-applocker", "${{ github.workspace }}/windows-asr"
                 $Tables = $Paths | ForEach-Object {
                     $Path = $_
-                    New-MDHeader -Text $Path -Level 2
+                    New-MDHeader -Text ($Path -replace "/home/runner/work/intune-baseline/", "") -Level 2
                     "`n"
                     Get-ChildItem -Path $Path -Recurse -Include "*.json" |
                     ForEach-Object { 
