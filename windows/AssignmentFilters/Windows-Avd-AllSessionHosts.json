@@ -1,0 +1,28 @@
+{
+  "@odata.context": "https://graph.microsoft.com/beta/$metadata#deviceManagement/assignmentFilters/$entity",
+  "@odata.type": "#microsoft.graph.deviceAndAppManagementAssignmentFilter",
+  "@odata.id": "deviceManagement/assignmentFilters('aa156327-73bb-4d3f-a256-b55af2fa6a0d')",
+  "@odata.editLink": "deviceManagement/assignmentFilters('aa156327-73bb-4d3f-a256-b55af2fa6a0d')",
+  "id": "aa156327-73bb-4d3f-a256-b55af2fa6a0d",
+  "createdDateTime@odata.type": "#DateTimeOffset",
+  "createdDateTime": "2025-09-08T02:09:39.2881679Z",
+  "lastModifiedDateTime@odata.type": "#DateTimeOffset",
+  "lastModifiedDateTime": "2025-09-08T02:09:39.2881679Z",
+  "displayName": "Windows-Avd-AllSessionHosts",
+  "description": "Filter for all Azure Virtual Desktop session hosts - single session and multi-session",
+  "platform@odata.type": "#microsoft.graph.devicePlatformType",
+  "platform": "windows10AndLater",
+  "rule": "((device.manufacturer -eq \"Microsoft Corporation\") and (device.model -eq \"Virtual Machine\") and (device.operatingSystemSKU -eq \"Enterprise\")) or (device.operatingSystemSKU -eq \"ServerRdsh\")",
+  "roleScopeTags@odata.type": "#Collection(String)",
+  "roleScopeTags": [
+    "0"
+  ],
+  "assignmentFilterManagementType@odata.type": "#microsoft.graph.assignmentFilterManagementType",
+  "assignmentFilterManagementType": "devices",
+  "payloads@odata.type": "#Collection(microsoft.graph.payloadByFilter)",
+  "payloads": [],
+  "#microsoft.graph.getSupportedProperties": {
+    "title": "microsoft.graph.getSupportedProperties",
+    "target": "https://graph.microsoft.com/beta/deviceManagement/assignmentFilters('aa156327-73bb-4d3f-a256-b55af2fa6a0d')/microsoft.graph.getSupportedProperties"
+  }
+}

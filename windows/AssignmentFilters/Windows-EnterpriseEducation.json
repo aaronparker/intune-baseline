@@ -1,0 +1,30 @@
+{
+    "@odata.context":  "https://graph.microsoft.com/beta/$metadata#deviceManagement/assignmentFilters/$entity",
+    "@odata.type":  "#microsoft.graph.deviceAndAppManagementAssignmentFilter",
+    "@odata.id":  "deviceManagement/assignmentFilters(\u0027128c382b-5bad-406f-b484-15372f59ce56\u0027)",
+    "@odata.editLink":  "deviceManagement/assignmentFilters(\u0027128c382b-5bad-406f-b484-15372f59ce56\u0027)",
+    "id":  "128c382b-5bad-406f-b484-15372f59ce56",
+    "createdDateTime@odata.type":  "#DateTimeOffset",
+    "createdDateTime":  "2022-11-02T12:09:22.4407849Z",
+    "lastModifiedDateTime@odata.type":  "#DateTimeOffset",
+    "lastModifiedDateTime":  "2022-11-02T12:09:22.4877248Z",
+    "displayName":  "Windows-EnterpriseEducation",
+    "description":  "Filter for Windows 10/11 Enterprise or Education edition",
+    "platform@odata.type":  "#microsoft.graph.devicePlatformType",
+    "platform":  "windows10AndLater",
+    "rule":  "(device.operatingSystemSKU -in [\"Education\", \"EducationN\", \"Enterprise\", \"EnterpriseEval\", \"EnterpriseG\", \"EnterpriseGN\", \"EnterpriseS\", \"EnterpriseSEval\", \"EnterpriseSN\", \"EnterpriseN\", \"EnterpriseNEval\", \"ServerRdsh\"])",
+    "roleScopeTags@odata.type":  "#Collection(String)",
+    "roleScopeTags":  [
+                          "0"
+                      ],
+    "assignmentFilterManagementType@odata.type":  "#microsoft.graph.assignmentFilterManagementType",
+    "assignmentFilterManagementType":  "devices",
+    "payloads@odata.type":  "#Collection(microsoft.graph.payloadByFilter)",
+    "payloads":  [
+
+                 ],
+    "#microsoft.graph.getSupportedProperties":  {
+                                                    "title":  "microsoft.graph.getSupportedProperties",
+                                                    "target":  "https://graph.microsoft.com/beta/deviceManagement/assignmentFilters(\u0027128c382b-5bad-406f-b484-15372f59ce56\u0027)/microsoft.graph.getSupportedProperties"
+                                                }
+}

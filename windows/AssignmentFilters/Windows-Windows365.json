@@ -1,0 +1,29 @@
+{
+    "@odata.context":  "https://graph.microsoft.com/beta/$metadata#deviceManagement/assignmentFilters/$entity",
+    "@odata.type":  "#microsoft.graph.deviceAndAppManagementAssignmentFilter",
+    "@odata.id":  "deviceManagement/assignmentFilters(\u00271e69b9bb-fd21-4076-b1cc-5236298d6bee\u0027)",
+    "@odata.editLink":  "deviceManagement/assignmentFilters(\u00271e69b9bb-fd21-4076-b1cc-5236298d6bee\u0027)",
+    "id":  "1e69b9bb-fd21-4076-b1cc-5236298d6bee",
+    "createdDateTime@odata.type":  "#DateTimeOffset",
+    "createdDateTime":  "2025-04-13T07:33:29.7791289Z",
+    "lastModifiedDateTime@odata.type":  "#DateTimeOffset",
+    "lastModifiedDateTime":  "2025-04-13T07:33:29.8260023Z",
+    "displayName":  "Windows-Windows365",
+    "description":  "Filter for Windows 365 Cloud PCs",
+    "platform@odata.type":  "#microsoft.graph.devicePlatformType",
+    "platform":  "windows10AndLater",
+    "rule":  "(device.model -contains \"Cloud PC\")",
+    "roleScopeTags@odata.type":  "#Collection(String)",
+    "roleScopeTags":  [
+                          "0"
+                      ],
+    "assignmentFilterManagementType@odata.type":  "#microsoft.graph.assignmentFilterManagementType",
+    "assignmentFilterManagementType":  "devices",
+    "payloads@odata.type":  "#Collection(microsoft.graph.payloadByFilter)",
+    "payloads":  [
+                 ],
+    "#microsoft.graph.getSupportedProperties":  {
+                                                    "title":  "microsoft.graph.getSupportedProperties",
+                                                    "target":  "https://graph.microsoft.com/beta/deviceManagement/assignmentFilters(\u00271e69b9bb-fd21-4076-b1cc-5236298d6bee\u0027)/microsoft.graph.getSupportedProperties"
+                                                }
+}

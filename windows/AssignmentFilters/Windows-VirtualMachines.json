@@ -1,0 +1,30 @@
+{
+    "@odata.context":  "https://graph.microsoft.com/beta/$metadata#deviceManagement/assignmentFilters/$entity",
+    "@odata.type":  "#microsoft.graph.deviceAndAppManagementAssignmentFilter",
+    "@odata.id":  "deviceManagement/assignmentFilters(\u0027e8a3482f-c1ef-4808-a991-e4ee628cfcb0\u0027)",
+    "@odata.editLink":  "deviceManagement/assignmentFilters(\u0027e8a3482f-c1ef-4808-a991-e4ee628cfcb0\u0027)",
+    "id":  "e8a3482f-c1ef-4808-a991-e4ee628cfcb0",
+    "createdDateTime@odata.type":  "#DateTimeOffset",
+    "createdDateTime":  "2022-07-01T03:00:04.1934575Z",
+    "lastModifiedDateTime@odata.type":  "#DateTimeOffset",
+    "lastModifiedDateTime":  "2022-07-01T03:00:04.1934575Z",
+    "displayName":  "Windows-VirtualMachines",
+    "description":  "Filter for Microsoft Hyper-V, VMware Workstation / Fusion, Parallels Desktop, Oracle VirtualBox",
+    "platform@odata.type":  "#microsoft.graph.devicePlatformType",
+    "platform":  "windows10AndLater",
+    "rule":  "(device.manufacturer -startsWith \"Parallels\") or (device.manufacturer -startsWith \"VMware\") or (device.model -eq \"Virtual Machine\") or (device.model -eq \"VirtualBox\")",
+    "roleScopeTags@odata.type":  "#Collection(String)",
+    "roleScopeTags":  [
+                          "0"
+                      ],
+    "assignmentFilterManagementType@odata.type":  "#microsoft.graph.assignmentFilterManagementType",
+    "assignmentFilterManagementType":  "devices",
+    "payloads@odata.type":  "#Collection(microsoft.graph.payloadByFilter)",
+    "payloads":  [
+
+                 ],
+    "#microsoft.graph.getSupportedProperties":  {
+                                                    "title":  "microsoft.graph.getSupportedProperties",
+                                                    "target":  "https://graph.microsoft.com/beta/deviceManagement/assignmentFilters(\u0027e8a3482f-c1ef-4808-a991-e4ee628cfcb0\u0027)/microsoft.graph.getSupportedProperties"
+                                                }
+}
