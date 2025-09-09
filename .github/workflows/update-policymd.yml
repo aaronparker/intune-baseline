@@ -23,7 +23,7 @@ jobs:
             - name: Update policy markdown
               shell: pwsh
               run: |
-                $Path = "${{ github.workspace }}/windows"
+                $Path = "${{ github.workspace }}/windows", "${{ github.workspace }}/windows-asr"
                 $Table = Get-ChildItem -Path $Path -Recurse -Include "*.json" |
                 ForEach-Object { 
                     $Props = Get-Content -Path $_.FullName | `
