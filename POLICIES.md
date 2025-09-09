@@ -1,6 +1,6 @@
 # Policies
 
-## /home/runner/work/intune-baseline/intune-baseline/windows
+## intune-baseline/windows
  
  | Name | Description |
 | ---- | ----------- |
@@ -38,14 +38,14 @@
 | Prod-Windows-QualityUpdates-Broad | Windows Update settings for broad ring Windows 10 PCs. Note: Feature update deferral is set to 0 - ensure a Feature update ring is assigned to the device. Assign to a specified group of users. May cause reboots during Autopilot if assigned to devices. |
 | Prod-Windows-QualityUpdates-First | Windows Update settings for first ring Windows 10 PCs. Note: Feature update deferral is set to 0 - ensure a Feature update ring is assigned to the device. Assign to a specified group of users. May cause reboots during Autopilot if assigned to devices. |
  
- ## /home/runner/work/intune-baseline/intune-baseline/windows-applocker
+ ## intune-baseline/windows-applocker
  
  | Name | Description |
 | ---- | ----------- |
 | Prod-Windows-AppLocker-AuditMode-Device | Places devices into AppLocker audit mode. Note issues documented here: https://docs.microsoft.com/en-us/mem/autopilot/policy-conflicts. Apply to All Devices (optionally with filters) or Entra ID device groups. |
 | Prod-Windows-AppLocker-EnforcedMode-Device | Places devices into AppLocker enforced mode. Note issues documented here: https://docs.microsoft.com/en-us/mem/autopilot/policy-conflicts. Apply to All Devices (optionally with filters) or Entra ID device groups. |
  
- ## /home/runner/work/intune-baseline/intune-baseline/windows-asr
+ ## intune-baseline/windows-asr
  
  | Name | Description |
 | ---- | ----------- |
