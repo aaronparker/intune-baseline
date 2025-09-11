@@ -5,6 +5,7 @@ on:
         branches:
             - main
         paths:
+            - "macos/**"
             - "windows/**"
             - "windows-applocker/**"
             - "windows-asr/**"
