@@ -16,7 +16,7 @@ jobs:
 
             - name: Compress policy directories
               run: |
-                    zip -r intune-baseline.zip windows windows-asr windows-applocker
+                    zip -r intune-baseline.zip windows windows-asr windows-applocker macos
 
             - name: Create Git tag
               run: |

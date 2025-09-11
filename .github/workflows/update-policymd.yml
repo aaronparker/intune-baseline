@@ -26,7 +26,7 @@ jobs:
             - name: Update policy markdown
               shell: pwsh
               run: |
-                $Paths = "${{ github.workspace }}/windows", "${{ github.workspace }}/windows-applocker", "${{ github.workspace }}/windows-asr"
+                $Paths = "${{ github.workspace }}/windows", "${{ github.workspace }}/windows-applocker", "${{ github.workspace }}/windows-asr", "${{ github.workspace }}/macos"
                 $Tables = $Paths | ForEach-Object {
                     $Path = $_
                     New-MDHeader -Text ($Path -replace "/home/runner/work/intune-baseline/", "") -Level 2
