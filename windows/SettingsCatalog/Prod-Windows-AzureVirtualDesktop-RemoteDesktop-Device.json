@@ -33,9 +33,6 @@
     "assignments@odata.context":  "https://graph.microsoft.com/beta/$metadata#deviceManagement/configurationPolicies(\u0027e83c97bc-11f2-4448-8338-ad2f785ff5f2\u0027)/assignments",
     "assignments@odata.associationLink":  "https://graph.microsoft.com/beta/deviceManagement/configurationPolicies(\u0027e83c97bc-11f2-4448-8338-ad2f785ff5f2\u0027)/assignments/$ref",
     "assignments@odata.navigationLink":  "https://graph.microsoft.com/beta/deviceManagement/configurationPolicies(\u0027e83c97bc-11f2-4448-8338-ad2f785ff5f2\u0027)/assignments",
-    "assignments":  [
-
-                    ],
     "settings@odata.context":  "https://graph.microsoft.com/beta/$metadata#deviceManagement/configurationPolicies(\u0027e83c97bc-11f2-4448-8338-ad2f785ff5f2\u0027)/settings",
     "settings@odata.associationLink":  "https://graph.microsoft.com/beta/deviceManagement/configurationPolicies(\u0027e83c97bc-11f2-4448-8338-ad2f785ff5f2\u0027)/settings/$ref",
     "settings@odata.navigationLink":  "https://graph.microsoft.com/beta/deviceManagement/configurationPolicies(\u0027e83c97bc-11f2-4448-8338-ad2f785ff5f2\u0027)/settings",
