@@ -8,8 +8,8 @@
     "creationSource":  null,
     "description":  "Configure user targeted policy settings for the Microsoft 365 Apps. Apply to All Users (optionally with filters) or Entra ID user groups.",
     "lastModifiedDateTime@odata.type":  "#DateTimeOffset",
-    "lastModifiedDateTime":  "2025-06-15T23:24:38.402397Z",
-    "name":  "Prod-Windows-Microsoft365Apps-User",
+    "lastModifiedDateTime":  "2025-09-17T00:32:42.8480003Z",
+    "name":  "Prod-Windows-Microsoft365Apps-Baseline-User",
     "platforms@odata.type":  "#microsoft.graph.deviceManagementConfigurationPlatforms",
     "platforms":  "windows10",
     "priorityMetaData":  null,
@@ -44,12 +44,12 @@
                          "id":  "0",
                          "settingInstance":  {
                                                  "@odata.type":  "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
-                                                 "settingDefinitionId":  "user_vendor_msft_policy_config_office16v2~policy~l_microsoftofficesystem~l_privacy~l_trustcenter_l_screenshot",
+                                                 "settingDefinitionId":  "user_vendor_msft_policy_config_office16v7~policy~l_microsoftofficesystem~l_privacy~l_trustcenter_l_sendsurvey",
                                                  "settingInstanceTemplateReference":  null,
                                                  "choiceSettingValue":  {
                                                                             "@odata.type":  "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
                                                                             "settingValueTemplateReference":  null,
-                                                                            "value":  "user_vendor_msft_policy_config_office16v2~policy~l_microsoftofficesystem~l_privacy~l_trustcenter_l_screenshot_0",
+                                                                            "value":  "user_vendor_msft_policy_config_office16v7~policy~l_microsoftofficesystem~l_privacy~l_trustcenter_l_sendsurvey_0",
                                                                             "children@odata.type":  "#Collection(microsoft.graph.deviceManagementConfigurationSettingInstance)",
                                                                             "children":  [
 
@@ -66,12 +66,12 @@
                          "id":  "1",
                          "settingInstance":  {
                                                  "@odata.type":  "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
-                                                 "settingDefinitionId":  "user_vendor_msft_policy_config_office16v7~policy~l_microsoftofficesystem~l_privacy~l_trustcenter_l_emailcollection",
+                                                 "settingDefinitionId":  "user_vendor_msft_policy_config_office16v2~policy~l_microsoftofficesystem~l_privacy~l_trustcenter_l_screenshot",
                                                  "settingInstanceTemplateReference":  null,
                                                  "choiceSettingValue":  {
                                                                             "@odata.type":  "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
                                                                             "settingValueTemplateReference":  null,
-                                                                            "value":  "user_vendor_msft_policy_config_office16v7~policy~l_microsoftofficesystem~l_privacy~l_trustcenter_l_emailcollection_0",
+                                                                            "value":  "user_vendor_msft_policy_config_office16v2~policy~l_microsoftofficesystem~l_privacy~l_trustcenter_l_screenshot_0",
                                                                             "children@odata.type":  "#Collection(microsoft.graph.deviceManagementConfigurationSettingInstance)",
                                                                             "children":  [
 
@@ -88,12 +88,12 @@
                          "id":  "2",
                          "settingInstance":  {
                                                  "@odata.type":  "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
-                                                 "settingDefinitionId":  "user_vendor_msft_policy_config_office16v2.updates.3~policy~l_microsoftofficesystem~l_privacy~l_trustcenter_l_optionalconnectedexperiences",
+                                                 "settingDefinitionId":  "user_vendor_msft_policy_config_office16v7~policy~l_microsoftofficesystem~l_privacy~l_trustcenter_l_emailcollection",
                                                  "settingInstanceTemplateReference":  null,
                                                  "choiceSettingValue":  {
                                                                             "@odata.type":  "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
                                                                             "settingValueTemplateReference":  null,
-                                                                            "value":  "user_vendor_msft_policy_config_office16v2.updates.3~policy~l_microsoftofficesystem~l_privacy~l_trustcenter_l_optionalconnectedexperiences_1",
+                                                                            "value":  "user_vendor_msft_policy_config_office16v7~policy~l_microsoftofficesystem~l_privacy~l_trustcenter_l_emailcollection_0",
                                                                             "children@odata.type":  "#Collection(microsoft.graph.deviceManagementConfigurationSettingInstance)",
                                                                             "children":  [
 
@@ -110,12 +110,12 @@
                          "id":  "3",
                          "settingInstance":  {
                                                  "@odata.type":  "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
-                                                 "settingDefinitionId":  "user_vendor_msft_policy_config_office16v2.updates.2~policy~l_microsoftofficesystem~l_privacy~l_trustcenter_l_connectedofficeexperiences",
+                                                 "settingDefinitionId":  "user_vendor_msft_policy_config_office16v2.updates.3~policy~l_microsoftofficesystem~l_privacy~l_trustcenter_l_optionalconnectedexperiences",
                                                  "settingInstanceTemplateReference":  null,
                                                  "choiceSettingValue":  {
                                                                             "@odata.type":  "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
                                                                             "settingValueTemplateReference":  null,
-                                                                            "value":  "user_vendor_msft_policy_config_office16v2.updates.2~policy~l_microsoftofficesystem~l_privacy~l_trustcenter_l_connectedofficeexperiences_1",
+                                                                            "value":  "user_vendor_msft_policy_config_office16v2.updates.3~policy~l_microsoftofficesystem~l_privacy~l_trustcenter_l_optionalconnectedexperiences_1",
                                                                             "children@odata.type":  "#Collection(microsoft.graph.deviceManagementConfigurationSettingInstance)",
                                                                             "children":  [
 
@@ -132,12 +132,12 @@
                          "id":  "4",
                          "settingInstance":  {
                                                  "@odata.type":  "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
-                                                 "settingDefinitionId":  "user_vendor_msft_policy_config_office16v2.updates.3~policy~l_microsoftofficesystem~l_privacy~l_trustcenter_l_officeexperiencesanlayzingcontent",
+                                                 "settingDefinitionId":  "user_vendor_msft_policy_config_office16v2.updates.2~policy~l_microsoftofficesystem~l_privacy~l_trustcenter_l_connectedofficeexperiences",
                                                  "settingInstanceTemplateReference":  null,
                                                  "choiceSettingValue":  {
                                                                             "@odata.type":  "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
                                                                             "settingValueTemplateReference":  null,
-                                                                            "value":  "user_vendor_msft_policy_config_office16v2.updates.3~policy~l_microsoftofficesystem~l_privacy~l_trustcenter_l_officeexperiencesanlayzingcontent_0",
+                                                                            "value":  "user_vendor_msft_policy_config_office16v2.updates.2~policy~l_microsoftofficesystem~l_privacy~l_trustcenter_l_connectedofficeexperiences_1",
                                                                             "children@odata.type":  "#Collection(microsoft.graph.deviceManagementConfigurationSettingInstance)",
                                                                             "children":  [
 
@@ -154,12 +154,12 @@
                          "id":  "5",
                          "settingInstance":  {
                                                  "@odata.type":  "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
-                                                 "settingDefinitionId":  "user_vendor_msft_policy_config_office16v2.updates.3~policy~l_microsoftofficesystem~l_privacy~l_trustcenter_l_officeexperiencesdownloadingcontent",
+                                                 "settingDefinitionId":  "user_vendor_msft_policy_config_office16v2.updates.3~policy~l_microsoftofficesystem~l_privacy~l_trustcenter_l_officeexperiencesanlayzingcontent",
                                                  "settingInstanceTemplateReference":  null,
                                                  "choiceSettingValue":  {
                                                                             "@odata.type":  "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
                                                                             "settingValueTemplateReference":  null,
-                                                                            "value":  "user_vendor_msft_policy_config_office16v2.updates.3~policy~l_microsoftofficesystem~l_privacy~l_trustcenter_l_officeexperiencesdownloadingcontent_1",
+                                                                            "value":  "user_vendor_msft_policy_config_office16v2.updates.3~policy~l_microsoftofficesystem~l_privacy~l_trustcenter_l_officeexperiencesanlayzingcontent_0",
                                                                             "children@odata.type":  "#Collection(microsoft.graph.deviceManagementConfigurationSettingInstance)",
                                                                             "children":  [
 
@@ -176,12 +176,12 @@
                          "id":  "6",
                          "settingInstance":  {
                                                  "@odata.type":  "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
-                                                 "settingDefinitionId":  "user_vendor_msft_policy_config_office16v8~policy~l_microsoftofficesystem~l_privacy~l_trustcenter_l_logcollection",
+                                                 "settingDefinitionId":  "user_vendor_msft_policy_config_office16v2.updates.3~policy~l_microsoftofficesystem~l_privacy~l_trustcenter_l_officeexperiencesdownloadingcontent",
                                                  "settingInstanceTemplateReference":  null,
                                                  "choiceSettingValue":  {
                                                                             "@odata.type":  "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
                                                                             "settingValueTemplateReference":  null,
-                                                                            "value":  "user_vendor_msft_policy_config_office16v8~policy~l_microsoftofficesystem~l_privacy~l_trustcenter_l_logcollection_1",
+                                                                            "value":  "user_vendor_msft_policy_config_office16v2.updates.3~policy~l_microsoftofficesystem~l_privacy~l_trustcenter_l_officeexperiencesdownloadingcontent_1",
                                                                             "children@odata.type":  "#Collection(microsoft.graph.deviceManagementConfigurationSettingInstance)",
                                                                             "children":  [
 
@@ -198,12 +198,12 @@
                          "id":  "7",
                          "settingInstance":  {
                                                  "@odata.type":  "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
-                                                 "settingDefinitionId":  "user_vendor_msft_policy_config_office16v7~policy~l_microsoftofficesystem~l_privacy~l_trustcenter_l_sendsurvey",
+                                                 "settingDefinitionId":  "user_vendor_msft_policy_config_office16v8~policy~l_microsoftofficesystem~l_privacy~l_trustcenter_l_logcollection",
                                                  "settingInstanceTemplateReference":  null,
                                                  "choiceSettingValue":  {
                                                                             "@odata.type":  "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
                                                                             "settingValueTemplateReference":  null,
-                                                                            "value":  "user_vendor_msft_policy_config_office16v7~policy~l_microsoftofficesystem~l_privacy~l_trustcenter_l_sendsurvey_0",
+                                                                            "value":  "user_vendor_msft_policy_config_office16v8~policy~l_microsoftofficesystem~l_privacy~l_trustcenter_l_logcollection_1",
                                                                             "children@odata.type":  "#Collection(microsoft.graph.deviceManagementConfigurationSettingInstance)",
                                                                             "children":  [
 
@@ -257,7 +257,7 @@
                                                                                                  "choiceSettingValue":  {
                                                                                                                             "@odata.type":  "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
                                                                                                                             "settingValueTemplateReference":  null,
-                                                                                                                            "value":  "user_vendor_msft_policy_config_office16v2~policy~l_microsoftofficesystem~l_privacy~l_trustcenter_l_sendtelemetry_l_sendtelemetrydropid_1",
+                                                                                                                            "value":  "user_vendor_msft_policy_config_office16v2~policy~l_microsoftofficesystem~l_privacy~l_trustcenter_l_sendtelemetry_l_sendtelemetrydropid_2",
                                                                                                                             "children@odata.type":  "#Collection(microsoft.graph.deviceManagementConfigurationSettingInstance)",
                                                                                                                             "children":  [
 

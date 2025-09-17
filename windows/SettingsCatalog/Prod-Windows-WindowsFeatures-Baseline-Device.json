@@ -8,8 +8,8 @@
     "creationSource":  null,
     "description":  "Baseline configurations and policies to enable corporate device experience, restrict Windows consumer features, and configure basic lockdown on corporate device. Apply to All Devices (optionally with filters) or Entra ID device groups.",
     "lastModifiedDateTime@odata.type":  "#DateTimeOffset",
-    "lastModifiedDateTime":  "2025-06-15T23:29:35.9510929Z",
-    "name":  "Prod-Windows-BaselinePolicies-Device",
+    "lastModifiedDateTime":  "2025-09-14T06:56:51.9812671Z",
+    "name":  "Prod-Windows-WindowsFeatures-Baseline-Device",
     "platforms@odata.type":  "#microsoft.graph.deviceManagementConfigurationPlatforms",
     "platforms":  "windows10",
     "priorityMetaData":  null,
@@ -18,7 +18,7 @@
                             "0",
                             "1"
                         ],
-    "settingCount":  17,
+    "settingCount":  15,
     "technologies@odata.type":  "#microsoft.graph.deviceManagementConfigurationTechnologies",
     "technologies":  "mdm",
     "id":  "4e2170e8-d779-4096-8f42-4d7b2ff69cef",
@@ -154,28 +154,15 @@
                          "id":  "5",
                          "settingInstance":  {
                                                  "@odata.type":  "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
-                                                 "settingDefinitionId":  "device_vendor_msft_policy_config_windowslogon_configautomaticrestartsignon",
+                                                 "settingDefinitionId":  "device_vendor_msft_policy_config_authentication_allowaadpasswordreset",
                                                  "settingInstanceTemplateReference":  null,
                                                  "choiceSettingValue":  {
                                                                             "@odata.type":  "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
                                                                             "settingValueTemplateReference":  null,
-                                                                            "value":  "device_vendor_msft_policy_config_windowslogon_configautomaticrestartsignon_1",
+                                                                            "value":  "device_vendor_msft_policy_config_authentication_allowaadpasswordreset_1",
                                                                             "children@odata.type":  "#Collection(microsoft.graph.deviceManagementConfigurationSettingInstance)",
                                                                             "children":  [
-                                                                                             {
-                                                                                                 "@odata.type":  "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
-                                                                                                 "settingDefinitionId":  "device_vendor_msft_policy_config_windowslogon_configautomaticrestartsignon_configautomaticrestartsignondescription",
-                                                                                                 "settingInstanceTemplateReference":  null,
-                                                                                                 "choiceSettingValue":  {
-                                                                                                                            "@odata.type":  "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
-                                                                                                                            "settingValueTemplateReference":  null,
-                                                                                                                            "value":  "device_vendor_msft_policy_config_windowslogon_configautomaticrestartsignon_configautomaticrestartsignondescription_0",
-                                                                                                                            "children@odata.type":  "#Collection(microsoft.graph.deviceManagementConfigurationSettingInstance)",
-                                                                                                                            "children":  [
 
-                                                                                                                                         ]
-                                                                                                                        }
-                                                                                             }
                                                                                          ]
                                                                         }
                                              },
@@ -189,12 +176,12 @@
                          "id":  "6",
                          "settingInstance":  {
                                                  "@odata.type":  "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
-                                                 "settingDefinitionId":  "device_vendor_msft_policy_config_windowslogon_allowautomaticrestartsignon",
+                                                 "settingDefinitionId":  "device_vendor_msft_policy_config_experience_allowcortana",
                                                  "settingInstanceTemplateReference":  null,
                                                  "choiceSettingValue":  {
                                                                             "@odata.type":  "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
                                                                             "settingValueTemplateReference":  null,
-                                                                            "value":  "device_vendor_msft_policy_config_windowslogon_allowautomaticrestartsignon_1",
+                                                                            "value":  "device_vendor_msft_policy_config_experience_allowcortana_0",
                                                                             "children@odata.type":  "#Collection(microsoft.graph.deviceManagementConfigurationSettingInstance)",
                                                                             "children":  [
 
@@ -211,12 +198,12 @@
                          "id":  "7",
                          "settingInstance":  {
                                                  "@odata.type":  "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
-                                                 "settingDefinitionId":  "device_vendor_msft_policy_config_authentication_allowaadpasswordreset",
+                                                 "settingDefinitionId":  "device_vendor_msft_policy_config_experience_configurechaticon",
                                                  "settingInstanceTemplateReference":  null,
                                                  "choiceSettingValue":  {
                                                                             "@odata.type":  "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
                                                                             "settingValueTemplateReference":  null,
-                                                                            "value":  "device_vendor_msft_policy_config_authentication_allowaadpasswordreset_1",
+                                                                            "value":  "device_vendor_msft_policy_config_experience_configurechaticon_3",
                                                                             "children@odata.type":  "#Collection(microsoft.graph.deviceManagementConfigurationSettingInstance)",
                                                                             "children":  [
 
@@ -233,12 +220,12 @@
                          "id":  "8",
                          "settingInstance":  {
                                                  "@odata.type":  "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
-                                                 "settingDefinitionId":  "device_vendor_msft_policy_config_experience_allowcortana",
+                                                 "settingDefinitionId":  "device_vendor_msft_policy_config_experience_disableconsumeraccountstatecontent",
                                                  "settingInstanceTemplateReference":  null,
                                                  "choiceSettingValue":  {
                                                                             "@odata.type":  "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
                                                                             "settingValueTemplateReference":  null,
-                                                                            "value":  "device_vendor_msft_policy_config_experience_allowcortana_0",
+                                                                            "value":  "device_vendor_msft_policy_config_experience_disableconsumeraccountstatecontent_1",
                                                                             "children@odata.type":  "#Collection(microsoft.graph.deviceManagementConfigurationSettingInstance)",
                                                                             "children":  [
 
@@ -255,12 +242,12 @@
                          "id":  "9",
                          "settingInstance":  {
                                                  "@odata.type":  "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
-                                                 "settingDefinitionId":  "device_vendor_msft_policy_config_experience_configurechaticon",
+                                                 "settingDefinitionId":  "device_vendor_msft_policy_config_applicationmanagement_allowappstoreautoupdate",
                                                  "settingInstanceTemplateReference":  null,
                                                  "choiceSettingValue":  {
                                                                             "@odata.type":  "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
                                                                             "settingValueTemplateReference":  null,
-                                                                            "value":  "device_vendor_msft_policy_config_experience_configurechaticon_3",
+                                                                            "value":  "device_vendor_msft_policy_config_applicationmanagement_allowappstoreautoupdate_1",
                                                                             "children@odata.type":  "#Collection(microsoft.graph.deviceManagementConfigurationSettingInstance)",
                                                                             "children":  [
 
@@ -277,12 +264,12 @@
                          "id":  "10",
                          "settingInstance":  {
                                                  "@odata.type":  "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
-                                                 "settingDefinitionId":  "device_vendor_msft_policy_config_experience_disableconsumeraccountstatecontent",
+                                                 "settingDefinitionId":  "device_vendor_msft_policy_config_privacy_letappsaccesslocation",
                                                  "settingInstanceTemplateReference":  null,
                                                  "choiceSettingValue":  {
                                                                             "@odata.type":  "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
                                                                             "settingValueTemplateReference":  null,
-                                                                            "value":  "device_vendor_msft_policy_config_experience_disableconsumeraccountstatecontent_1",
+                                                                            "value":  "device_vendor_msft_policy_config_privacy_letappsaccesslocation_1",
                                                                             "children@odata.type":  "#Collection(microsoft.graph.deviceManagementConfigurationSettingInstance)",
                                                                             "children":  [
 
@@ -299,12 +286,12 @@
                          "id":  "11",
                          "settingInstance":  {
                                                  "@odata.type":  "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
-                                                 "settingDefinitionId":  "device_vendor_msft_policy_config_applicationmanagement_allowappstoreautoupdate",
+                                                 "settingDefinitionId":  "device_vendor_msft_policy_config_search_allowsearchtouselocation",
                                                  "settingInstanceTemplateReference":  null,
                                                  "choiceSettingValue":  {
                                                                             "@odata.type":  "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
                                                                             "settingValueTemplateReference":  null,
-                                                                            "value":  "device_vendor_msft_policy_config_applicationmanagement_allowappstoreautoupdate_1",
+                                                                            "value":  "device_vendor_msft_policy_config_search_allowsearchtouselocation_1",
                                                                             "children@odata.type":  "#Collection(microsoft.graph.deviceManagementConfigurationSettingInstance)",
                                                                             "children":  [
 
@@ -321,12 +308,12 @@
                          "id":  "12",
                          "settingInstance":  {
                                                  "@odata.type":  "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
-                                                 "settingDefinitionId":  "device_vendor_msft_policy_config_privacy_letappsaccesslocation",
+                                                 "settingDefinitionId":  "device_vendor_msft_policy_config_system_allowlocation",
                                                  "settingInstanceTemplateReference":  null,
                                                  "choiceSettingValue":  {
                                                                             "@odata.type":  "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
                                                                             "settingValueTemplateReference":  null,
-                                                                            "value":  "device_vendor_msft_policy_config_privacy_letappsaccesslocation_1",
+                                                                            "value":  "device_vendor_msft_policy_config_system_allowlocation_2",
                                                                             "children@odata.type":  "#Collection(microsoft.graph.deviceManagementConfigurationSettingInstance)",
                                                                             "children":  [
 
@@ -343,12 +330,12 @@
                          "id":  "13",
                          "settingInstance":  {
                                                  "@odata.type":  "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
-                                                 "settingDefinitionId":  "device_vendor_msft_policy_config_search_allowsearchtouselocation",
+                                                 "settingDefinitionId":  "device_vendor_msft_policy_config_newsandinterests_allownewsandinterests",
                                                  "settingInstanceTemplateReference":  null,
                                                  "choiceSettingValue":  {
                                                                             "@odata.type":  "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
                                                                             "settingValueTemplateReference":  null,
-                                                                            "value":  "device_vendor_msft_policy_config_search_allowsearchtouselocation_1",
+                                                                            "value":  "device_vendor_msft_policy_config_newsandinterests_allownewsandinterests_0",
                                                                             "children@odata.type":  "#Collection(microsoft.graph.deviceManagementConfigurationSettingInstance)",
                                                                             "children":  [
 
@@ -365,50 +352,6 @@
                          "id":  "14",
                          "settingInstance":  {
                                                  "@odata.type":  "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
-                                                 "settingDefinitionId":  "device_vendor_msft_policy_config_system_allowlocation",
-                                                 "settingInstanceTemplateReference":  null,
-                                                 "choiceSettingValue":  {
-                                                                            "@odata.type":  "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
-                                                                            "settingValueTemplateReference":  null,
-                                                                            "value":  "device_vendor_msft_policy_config_system_allowlocation_2",
-                                                                            "children@odata.type":  "#Collection(microsoft.graph.deviceManagementConfigurationSettingInstance)",
-                                                                            "children":  [
-
-                                                                                         ]
-                                                                        }
-                                             },
-                         "settingDefinitions@odata.associationLink":  "https://graph.microsoft.com/beta/deviceManagement/configurationPolicies(\u00274e2170e8-d779-4096-8f42-4d7b2ff69cef\u0027)/settings(\u002714\u0027)/settingDefinitions/$ref",
-                         "settingDefinitions@odata.navigationLink":  "https://graph.microsoft.com/beta/deviceManagement/configurationPolicies(\u00274e2170e8-d779-4096-8f42-4d7b2ff69cef\u0027)/settings(\u002714\u0027)/settingDefinitions"
-                     },
-                     {
-                         "@odata.type":  "#microsoft.graph.deviceManagementConfigurationSetting",
-                         "@odata.id":  "deviceManagement/configurationPolicies(\u00274e2170e8-d779-4096-8f42-4d7b2ff69cef\u0027)/settings(\u002715\u0027)",
-                         "@odata.editLink":  "deviceManagement/configurationPolicies(\u00274e2170e8-d779-4096-8f42-4d7b2ff69cef\u0027)/settings(\u002715\u0027)",
-                         "id":  "15",
-                         "settingInstance":  {
-                                                 "@odata.type":  "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
-                                                 "settingDefinitionId":  "device_vendor_msft_policy_config_newsandinterests_allownewsandinterests",
-                                                 "settingInstanceTemplateReference":  null,
-                                                 "choiceSettingValue":  {
-                                                                            "@odata.type":  "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
-                                                                            "settingValueTemplateReference":  null,
-                                                                            "value":  "device_vendor_msft_policy_config_newsandinterests_allownewsandinterests_0",
-                                                                            "children@odata.type":  "#Collection(microsoft.graph.deviceManagementConfigurationSettingInstance)",
-                                                                            "children":  [
-
-                                                                                         ]
-                                                                        }
-                                             },
-                         "settingDefinitions@odata.associationLink":  "https://graph.microsoft.com/beta/deviceManagement/configurationPolicies(\u00274e2170e8-d779-4096-8f42-4d7b2ff69cef\u0027)/settings(\u002715\u0027)/settingDefinitions/$ref",
-                         "settingDefinitions@odata.navigationLink":  "https://graph.microsoft.com/beta/deviceManagement/configurationPolicies(\u00274e2170e8-d779-4096-8f42-4d7b2ff69cef\u0027)/settings(\u002715\u0027)/settingDefinitions"
-                     },
-                     {
-                         "@odata.type":  "#microsoft.graph.deviceManagementConfigurationSetting",
-                         "@odata.id":  "deviceManagement/configurationPolicies(\u00274e2170e8-d779-4096-8f42-4d7b2ff69cef\u0027)/settings(\u002716\u0027)",
-                         "@odata.editLink":  "deviceManagement/configurationPolicies(\u00274e2170e8-d779-4096-8f42-4d7b2ff69cef\u0027)/settings(\u002716\u0027)",
-                         "id":  "16",
-                         "settingInstance":  {
-                                                 "@odata.type":  "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
                                                  "settingDefinitionId":  "device_vendor_msft_policy_config_windowslogon_enablefirstlogonanimation",
                                                  "settingInstanceTemplateReference":  null,
                                                  "choiceSettingValue":  {
@@ -421,8 +364,8 @@
                                                                                          ]
                                                                         }
                                              },
-                         "settingDefinitions@odata.associationLink":  "https://graph.microsoft.com/beta/deviceManagement/configurationPolicies(\u00274e2170e8-d779-4096-8f42-4d7b2ff69cef\u0027)/settings(\u002716\u0027)/settingDefinitions/$ref",
-                         "settingDefinitions@odata.navigationLink":  "https://graph.microsoft.com/beta/deviceManagement/configurationPolicies(\u00274e2170e8-d779-4096-8f42-4d7b2ff69cef\u0027)/settings(\u002716\u0027)/settingDefinitions"
+                         "settingDefinitions@odata.associationLink":  "https://graph.microsoft.com/beta/deviceManagement/configurationPolicies(\u00274e2170e8-d779-4096-8f42-4d7b2ff69cef\u0027)/settings(\u002714\u0027)/settingDefinitions/$ref",
+                         "settingDefinitions@odata.navigationLink":  "https://graph.microsoft.com/beta/deviceManagement/configurationPolicies(\u00274e2170e8-d779-4096-8f42-4d7b2ff69cef\u0027)/settings(\u002714\u0027)/settingDefinitions"
                      }
                  ],
     "#microsoft.graph.assign":  {

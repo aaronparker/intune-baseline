@@ -8,8 +8,8 @@
     "creationSource":  null,
     "description":  "Remote Desktop settings to apply to Azure Virtual Desktop and Windows 365 devices. Apply to All Devices (optionally with filters) or Entra ID device groups.",
     "lastModifiedDateTime@odata.type":  "#DateTimeOffset",
-    "lastModifiedDateTime":  "2025-08-07T07:49:32.0318944Z",
-    "name":  "Prod-Windows-AzureVirtualDesktop-RemoteDesktop-Device",
+    "lastModifiedDateTime":  "2025-09-14T07:04:40.413067Z",
+    "name":  "Prod-Windows-AzureVirtualDesktop-RemoteDesktop-Baseline-Device",
     "platforms@odata.type":  "#microsoft.graph.deviceManagementConfigurationPlatforms",
     "platforms":  "windows10",
     "priorityMetaData":  null,
@@ -116,7 +116,7 @@
                                                                                                  "choiceSettingValue":  {
                                                                                                                             "@odata.type":  "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
                                                                                                                             "settingValueTemplateReference":  null,
-                                                                                                                            "value":  "device_vendor_msft_policy_config_remotedesktopservices_limitservertoclientclipboardredirection_ts_sc_clipboard_restriction_text_0",
+                                                                                                                            "value":  "device_vendor_msft_policy_config_remotedesktopservices_limitservertoclientclipboardredirection_ts_sc_clipboard_restriction_text_1",
                                                                                                                             "children@odata.type":  "#Collection(microsoft.graph.deviceManagementConfigurationSettingInstance)",
                                                                                                                             "children":  [
 

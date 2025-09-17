@@ -71,6 +71,9 @@
     "assignments@odata.context":  "https://graph.microsoft.com/beta/$metadata#deviceManagement/deviceConfigurations(\u0027fcf3d90f-1217-4fcd-af2b-ea4fcbe49181\u0027)/microsoft.graph.windowsUpdateForBusinessConfiguration/assignments",
     "assignments@odata.associationLink":  "https://graph.microsoft.com/beta/deviceManagement/deviceConfigurations(\u0027fcf3d90f-1217-4fcd-af2b-ea4fcbe49181\u0027)/microsoft.graph.windowsUpdateForBusinessConfiguration/assignments/$ref",
     "assignments@odata.navigationLink":  "https://graph.microsoft.com/beta/deviceManagement/deviceConfigurations(\u0027fcf3d90f-1217-4fcd-af2b-ea4fcbe49181\u0027)/microsoft.graph.windowsUpdateForBusinessConfiguration/assignments",
+    "assignments":  [
+
+                    ],
     "deviceSettingStateSummaries@odata.associationLink":  "https://graph.microsoft.com/beta/deviceManagement/deviceConfigurations(\u0027fcf3d90f-1217-4fcd-af2b-ea4fcbe49181\u0027)/microsoft.graph.windowsUpdateForBusinessConfiguration/deviceSettingStateSummaries/$ref",
     "deviceSettingStateSummaries@odata.navigationLink":  "https://graph.microsoft.com/beta/deviceManagement/deviceConfigurations(\u0027fcf3d90f-1217-4fcd-af2b-ea4fcbe49181\u0027)/microsoft.graph.windowsUpdateForBusinessConfiguration/deviceSettingStateSummaries",
     "deviceStatuses@odata.associationLink":  "https://graph.microsoft.com/beta/deviceManagement/deviceConfigurations(\u0027fcf3d90f-1217-4fcd-af2b-ea4fcbe49181\u0027)/microsoft.graph.windowsUpdateForBusinessConfiguration/deviceStatuses/$ref",
