@@ -1,0 +1,141 @@
+{
+    "@odata.context":  "https://graph.microsoft.com/beta/$metadata#deviceManagement/intents(assignments(),settings())/$entity",
+    "@odata.type":  "#microsoft.graph.deviceManagementIntent",
+    "@odata.id":  "deviceManagement/intents(\u00279325aa9c-0bc3-43d2-a3dd-620642dc7054\u0027)",
+    "@odata.editLink":  "deviceManagement/intents(\u00279325aa9c-0bc3-43d2-a3dd-620642dc7054\u0027)",
+    "id":  "9325aa9c-0bc3-43d2-a3dd-620642dc7054",
+    "displayName":  "Prod-Windows-BitLocker",
+    "description":  "Windows BitLocker settings to enable encryption for fixed drives with the default AES 128 bit XTS encryption, enable encryption for standard users and backup of the key to Entra ID. Apply to All Devices (optionally with filters) or Entra ID device groups.",
+    "isAssigned":  false,
+    "isMigratingToConfigurationPolicy":  null,
+    "lastModifiedDateTime@odata.type":  "#DateTimeOffset",
+    "lastModifiedDateTime":  "2025-06-15T23:26:54.7994211Z",
+    "templateId":  "d1174162-1dd2-4976-affc-6667049ab0ae",
+    "roleScopeTagIds@odata.type":  "#Collection(String)",
+    "roleScopeTagIds":  [
+                            "0",
+                            "1"
+                        ],
+    "assignments@odata.context":  "https://graph.microsoft.com/beta/$metadata#deviceManagement/intents(\u00279325aa9c-0bc3-43d2-a3dd-620642dc7054\u0027)/assignments",
+    "assignments@odata.associationLink":  "https://graph.microsoft.com/beta/deviceManagement/intents(\u00279325aa9c-0bc3-43d2-a3dd-620642dc7054\u0027)/assignments/$ref",
+    "assignments@odata.navigationLink":  "https://graph.microsoft.com/beta/deviceManagement/intents(\u00279325aa9c-0bc3-43d2-a3dd-620642dc7054\u0027)/assignments",
+    "assignments":  [
+
+                    ],
+    "settings@odata.context":  "https://graph.microsoft.com/beta/$metadata#deviceManagement/intents(\u00279325aa9c-0bc3-43d2-a3dd-620642dc7054\u0027)/settings",
+    "settings@odata.associationLink":  "https://graph.microsoft.com/beta/deviceManagement/intents(\u00279325aa9c-0bc3-43d2-a3dd-620642dc7054\u0027)/settings/$ref",
+    "settings@odata.navigationLink":  "https://graph.microsoft.com/beta/deviceManagement/intents(\u00279325aa9c-0bc3-43d2-a3dd-620642dc7054\u0027)/settings",
+    "settings":  [
+                     {
+                         "@odata.type":  "#microsoft.graph.deviceManagementComplexSettingInstance",
+                         "@odata.id":  "deviceManagement/intents(\u00279325aa9c-0bc3-43d2-a3dd-620642dc7054\u0027)/settings(\u00270acccaee-ae55-4843-b294-025453d8dbd0\u0027)",
+                         "@odata.editLink":  "deviceManagement/intents(\u00279325aa9c-0bc3-43d2-a3dd-620642dc7054\u0027)/settings(\u00270acccaee-ae55-4843-b294-025453d8dbd0\u0027)/microsoft.graph.deviceManagementComplexSettingInstance",
+                         "id":  "0acccaee-ae55-4843-b294-025453d8dbd0",
+                         "definitionId":  "deviceConfiguration--windows10EndpointProtectionConfiguration_bitLockerSystemDrivePolicy",
+                         "valueJson":  "{\"startupAuthenticationRequired\":true,\"startupAuthenticationTpmUsage\":\"required\",\"startupAuthenticationTpmPinUsage\":null,\"startupAuthenticationTpmKeyUsage\":null,\"startupAuthenticationTpmPinAndKeyUsage\":null,\"startupAuthenticationBlockWithoutTpmChip\":true,\"prebootRecoveryEnableMessageAndUrl\":false,\"prebootRecoveryMessage\":null,\"prebootRecoveryUrl\":null,\"recoveryOptions\":{\"recoveryKeyUsage\":\"allowed\",\"recoveryInformationToStore\":\"passwordAndKey\",\"enableRecoveryInformationSaveToStore\":true,\"recoveryPasswordUsage\":\"allowed\",\"hideRecoveryOptions\":true,\"enableBitLockerAfterRecoveryInformationToStore\":true,\"blockDataRecoveryAgent\":false},\"encryptionMethod\":\"xtsAes128\",\"minimumPinLength\":null}",
+                         "value@odata.associationLink":  "https://graph.microsoft.com/beta/deviceManagement/intents(\u00279325aa9c-0bc3-43d2-a3dd-620642dc7054\u0027)/settings(\u00270acccaee-ae55-4843-b294-025453d8dbd0\u0027)/microsoft.graph.deviceManagementComplexSettingInstance/value/$ref",
+                         "value@odata.navigationLink":  "https://graph.microsoft.com/beta/deviceManagement/intents(\u00279325aa9c-0bc3-43d2-a3dd-620642dc7054\u0027)/settings(\u00270acccaee-ae55-4843-b294-025453d8dbd0\u0027)/microsoft.graph.deviceManagementComplexSettingInstance/value"
+                     },
+                     {
+                         "@odata.type":  "#microsoft.graph.deviceManagementComplexSettingInstance",
+                         "@odata.id":  "deviceManagement/intents(\u00279325aa9c-0bc3-43d2-a3dd-620642dc7054\u0027)/settings(\u002711fcb73b-4343-4a94-8588-10fbb4757469\u0027)",
+                         "@odata.editLink":  "deviceManagement/intents(\u00279325aa9c-0bc3-43d2-a3dd-620642dc7054\u0027)/settings(\u002711fcb73b-4343-4a94-8588-10fbb4757469\u0027)/microsoft.graph.deviceManagementComplexSettingInstance",
+                         "id":  "11fcb73b-4343-4a94-8588-10fbb4757469",
+                         "definitionId":  "deviceConfiguration--windows10EndpointProtectionConfiguration_bitLockerFixedDrivePolicy",
+                         "valueJson":  "{\"recoveryOptions\":{\"recoveryKeyUsage\":\"blocked\",\"recoveryInformationToStore\":null,\"enableRecoveryInformationSaveToStore\":true,\"recoveryPasswordUsage\":\"required\",\"hideRecoveryOptions\":false,\"enableBitLockerAfterRecoveryInformationToStore\":true,\"blockDataRecoveryAgent\":false},\"requireEncryptionForWriteAccess\":false,\"encryptionMethod\":\"xtsAes128\"}",
+                         "value@odata.associationLink":  "https://graph.microsoft.com/beta/deviceManagement/intents(\u00279325aa9c-0bc3-43d2-a3dd-620642dc7054\u0027)/settings(\u002711fcb73b-4343-4a94-8588-10fbb4757469\u0027)/microsoft.graph.deviceManagementComplexSettingInstance/value/$ref",
+                         "value@odata.navigationLink":  "https://graph.microsoft.com/beta/deviceManagement/intents(\u00279325aa9c-0bc3-43d2-a3dd-620642dc7054\u0027)/settings(\u002711fcb73b-4343-4a94-8588-10fbb4757469\u0027)/microsoft.graph.deviceManagementComplexSettingInstance/value"
+                     },
+                     {
+                         "@odata.type":  "#microsoft.graph.deviceManagementBooleanSettingInstance",
+                         "@odata.id":  "deviceManagement/intents(\u00279325aa9c-0bc3-43d2-a3dd-620642dc7054\u0027)/settings(\u00276ebfb342-0ee9-4634-b224-63ce90fc882c\u0027)",
+                         "@odata.editLink":  "deviceManagement/intents(\u00279325aa9c-0bc3-43d2-a3dd-620642dc7054\u0027)/settings(\u00276ebfb342-0ee9-4634-b224-63ce90fc882c\u0027)/microsoft.graph.deviceManagementBooleanSettingInstance",
+                         "id":  "6ebfb342-0ee9-4634-b224-63ce90fc882c",
+                         "definitionId":  "deviceConfiguration--windows10EndpointProtectionConfiguration_bitLockerEncryptDevice",
+                         "valueJson":  "true",
+                         "value":  true
+                     },
+                     {
+                         "@odata.type":  "#microsoft.graph.deviceManagementBooleanSettingInstance",
+                         "@odata.id":  "deviceManagement/intents(\u00279325aa9c-0bc3-43d2-a3dd-620642dc7054\u0027)/settings(\u002775feb7f0-4938-4411-abfc-715821e6b1d1\u0027)",
+                         "@odata.editLink":  "deviceManagement/intents(\u00279325aa9c-0bc3-43d2-a3dd-620642dc7054\u0027)/settings(\u002775feb7f0-4938-4411-abfc-715821e6b1d1\u0027)/microsoft.graph.deviceManagementBooleanSettingInstance",
+                         "id":  "75feb7f0-4938-4411-abfc-715821e6b1d1",
+                         "definitionId":  "deviceConfiguration--windows10EndpointProtectionConfiguration_bitLockerDisableWarningForOtherDiskEncryption",
+                         "valueJson":  "true",
+                         "value":  true
+                     },
+                     {
+                         "@odata.type":  "#microsoft.graph.deviceManagementBooleanSettingInstance",
+                         "@odata.id":  "deviceManagement/intents(\u00279325aa9c-0bc3-43d2-a3dd-620642dc7054\u0027)/settings(\u0027bb6fb8e7-2a06-43de-84ab-80ee24167cc4\u0027)",
+                         "@odata.editLink":  "deviceManagement/intents(\u00279325aa9c-0bc3-43d2-a3dd-620642dc7054\u0027)/settings(\u0027bb6fb8e7-2a06-43de-84ab-80ee24167cc4\u0027)/microsoft.graph.deviceManagementBooleanSettingInstance",
+                         "id":  "bb6fb8e7-2a06-43de-84ab-80ee24167cc4",
+                         "definitionId":  "deviceConfiguration--windows10EndpointProtectionConfiguration_bitLockerEnableStorageCardEncryptionOnMobile",
+                         "valueJson":  "false",
+                         "value":  false
+                     },
+                     {
+                         "@odata.type":  "#microsoft.graph.deviceManagementBooleanSettingInstance",
+                         "@odata.id":  "deviceManagement/intents(\u00279325aa9c-0bc3-43d2-a3dd-620642dc7054\u0027)/settings(\u002783bbc13b-5441-4444-aecd-a1f66c08c5e8\u0027)",
+                         "@odata.editLink":  "deviceManagement/intents(\u00279325aa9c-0bc3-43d2-a3dd-620642dc7054\u0027)/settings(\u002783bbc13b-5441-4444-aecd-a1f66c08c5e8\u0027)/microsoft.graph.deviceManagementBooleanSettingInstance",
+                         "id":  "83bbc13b-5441-4444-aecd-a1f66c08c5e8",
+                         "definitionId":  "deviceConfiguration--windows10EndpointProtectionConfiguration_bitLockerAllowStandardUserEncryption",
+                         "valueJson":  "true",
+                         "value":  true
+                     },
+                     {
+                         "@odata.type":  "#microsoft.graph.deviceManagementComplexSettingInstance",
+                         "@odata.id":  "deviceManagement/intents(\u00279325aa9c-0bc3-43d2-a3dd-620642dc7054\u0027)/settings(\u0027335ef691-c366-43a8-a778-da1e31870471\u0027)",
+                         "@odata.editLink":  "deviceManagement/intents(\u00279325aa9c-0bc3-43d2-a3dd-620642dc7054\u0027)/settings(\u0027335ef691-c366-43a8-a778-da1e31870471\u0027)/microsoft.graph.deviceManagementComplexSettingInstance",
+                         "id":  "335ef691-c366-43a8-a778-da1e31870471",
+                         "definitionId":  "deviceConfiguration--windows10EndpointProtectionConfiguration_bitLockerRemovableDrivePolicy",
+                         "valueJson":  "{\"encryptionMethod\":\"xtsAes128\",\"requireEncryptionForWriteAccess\":false,\"blockCrossOrganizationWriteAccess\":false}",
+                         "value@odata.associationLink":  "https://graph.microsoft.com/beta/deviceManagement/intents(\u00279325aa9c-0bc3-43d2-a3dd-620642dc7054\u0027)/settings(\u0027335ef691-c366-43a8-a778-da1e31870471\u0027)/microsoft.graph.deviceManagementComplexSettingInstance/value/$ref",
+                         "value@odata.navigationLink":  "https://graph.microsoft.com/beta/deviceManagement/intents(\u00279325aa9c-0bc3-43d2-a3dd-620642dc7054\u0027)/settings(\u0027335ef691-c366-43a8-a778-da1e31870471\u0027)/microsoft.graph.deviceManagementComplexSettingInstance/value"
+                     },
+                     {
+                         "@odata.type":  "#microsoft.graph.deviceManagementStringSettingInstance",
+                         "@odata.id":  "deviceManagement/intents(\u00279325aa9c-0bc3-43d2-a3dd-620642dc7054\u0027)/settings(\u0027e582e949-4ac0-4f63-aba5-dee17ec3b9e7\u0027)",
+                         "@odata.editLink":  "deviceManagement/intents(\u00279325aa9c-0bc3-43d2-a3dd-620642dc7054\u0027)/settings(\u0027e582e949-4ac0-4f63-aba5-dee17ec3b9e7\u0027)/microsoft.graph.deviceManagementStringSettingInstance",
+                         "id":  "e582e949-4ac0-4f63-aba5-dee17ec3b9e7",
+                         "definitionId":  "deviceConfiguration--windows10EndpointProtectionConfiguration_bitLockerRecoveryPasswordRotation",
+                         "valueJson":  "\"enabledForAzureAdAndHybrid\"",
+                         "value":  "enabledForAzureAdAndHybrid"
+                     }
+                 ],
+    "categories@odata.associationLink":  "https://graph.microsoft.com/beta/deviceManagement/intents(\u00279325aa9c-0bc3-43d2-a3dd-620642dc7054\u0027)/categories/$ref",
+    "categories@odata.navigationLink":  "https://graph.microsoft.com/beta/deviceManagement/intents(\u00279325aa9c-0bc3-43d2-a3dd-620642dc7054\u0027)/categories",
+    "deviceSettingStateSummaries@odata.associationLink":  "https://graph.microsoft.com/beta/deviceManagement/intents(\u00279325aa9c-0bc3-43d2-a3dd-620642dc7054\u0027)/deviceSettingStateSummaries/$ref",
+    "deviceSettingStateSummaries@odata.navigationLink":  "https://graph.microsoft.com/beta/deviceManagement/intents(\u00279325aa9c-0bc3-43d2-a3dd-620642dc7054\u0027)/deviceSettingStateSummaries",
+    "deviceStates@odata.associationLink":  "https://graph.microsoft.com/beta/deviceManagement/intents(\u00279325aa9c-0bc3-43d2-a3dd-620642dc7054\u0027)/deviceStates/$ref",
+    "deviceStates@odata.navigationLink":  "https://graph.microsoft.com/beta/deviceManagement/intents(\u00279325aa9c-0bc3-43d2-a3dd-620642dc7054\u0027)/deviceStates",
+    "deviceStateSummary@odata.associationLink":  "https://graph.microsoft.com/beta/deviceManagement/intents(\u00279325aa9c-0bc3-43d2-a3dd-620642dc7054\u0027)/deviceStateSummary/$ref",
+    "deviceStateSummary@odata.navigationLink":  "https://graph.microsoft.com/beta/deviceManagement/intents(\u00279325aa9c-0bc3-43d2-a3dd-620642dc7054\u0027)/deviceStateSummary",
+    "userStates@odata.associationLink":  "https://graph.microsoft.com/beta/deviceManagement/intents(\u00279325aa9c-0bc3-43d2-a3dd-620642dc7054\u0027)/userStates/$ref",
+    "userStates@odata.navigationLink":  "https://graph.microsoft.com/beta/deviceManagement/intents(\u00279325aa9c-0bc3-43d2-a3dd-620642dc7054\u0027)/userStates",
+    "userStateSummary@odata.associationLink":  "https://graph.microsoft.com/beta/deviceManagement/intents(\u00279325aa9c-0bc3-43d2-a3dd-620642dc7054\u0027)/userStateSummary/$ref",
+    "userStateSummary@odata.navigationLink":  "https://graph.microsoft.com/beta/deviceManagement/intents(\u00279325aa9c-0bc3-43d2-a3dd-620642dc7054\u0027)/userStateSummary",
+    "#microsoft.graph.assign":  {
+                                    "title":  "microsoft.graph.assign",
+                                    "target":  "https://graph.microsoft.com/beta/deviceManagement/intents(\u00279325aa9c-0bc3-43d2-a3dd-620642dc7054\u0027)/microsoft.graph.assign"
+                                },
+    "#microsoft.graph.createCopy":  {
+                                        "title":  "microsoft.graph.createCopy",
+                                        "target":  "https://graph.microsoft.com/beta/deviceManagement/intents(\u00279325aa9c-0bc3-43d2-a3dd-620642dc7054\u0027)/microsoft.graph.createCopy"
+                                    },
+    "#microsoft.graph.migrateToTemplate":  {
+                                               "title":  "microsoft.graph.migrateToTemplate",
+                                               "target":  "https://graph.microsoft.com/beta/deviceManagement/intents(\u00279325aa9c-0bc3-43d2-a3dd-620642dc7054\u0027)/microsoft.graph.migrateToTemplate"
+                                           },
+    "#microsoft.graph.updateSettings":  {
+                                            "title":  "microsoft.graph.updateSettings",
+                                            "target":  "https://graph.microsoft.com/beta/deviceManagement/intents(\u00279325aa9c-0bc3-43d2-a3dd-620642dc7054\u0027)/microsoft.graph.updateSettings"
+                                        },
+    "#microsoft.graph.compare(templateId)":  {
+                                                 "title":  "microsoft.graph.compare",
+                                                 "target":  "https://graph.microsoft.com/beta/deviceManagement/intents(\u00279325aa9c-0bc3-43d2-a3dd-620642dc7054\u0027)/microsoft.graph.compare(templateId=@templateId)"
+                                             },
+    "#microsoft.graph.getCustomizedSettings":  {
+                                                   "title":  "microsoft.graph.getCustomizedSettings",
+                                                   "target":  "https://graph.microsoft.com/beta/deviceManagement/intents(\u00279325aa9c-0bc3-43d2-a3dd-620642dc7054\u0027)/microsoft.graph.getCustomizedSettings"
+                                               }
+}
