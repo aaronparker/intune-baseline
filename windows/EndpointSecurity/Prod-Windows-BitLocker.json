@@ -1,4 +1,4 @@
-{
+﻿{
     "@odata.context":  "https://graph.microsoft.com/beta/$metadata#deviceManagement/intents(assignments(),settings())/$entity",
     "@odata.type":  "#microsoft.graph.deviceManagementIntent",
     "@odata.id":  "deviceManagement/intents(\u00279325aa9c-0bc3-43d2-a3dd-620642dc7054\u0027)",

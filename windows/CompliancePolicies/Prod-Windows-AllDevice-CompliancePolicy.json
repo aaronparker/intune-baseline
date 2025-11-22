@@ -1,4 +1,4 @@
-{
+﻿{
   "@odata.context": "https://graph.microsoft.com/beta/$metadata#deviceManagement/deviceCompliancePolicies(assignments(),scheduledActionsForRule(scheduledActionConfigurations()))/$entity",
   "@odata.type": "#microsoft.graph.windows10CompliancePolicy",
   "@odata.id": "deviceManagement/deviceCompliancePolicies('295e5cd6-4c2e-4bf2-a491-3b8832e23a19')",

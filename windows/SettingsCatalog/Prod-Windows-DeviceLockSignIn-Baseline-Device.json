@@ -1,4 +1,4 @@
-{
+﻿{
   "@odata.context": "https://graph.microsoft.com/beta/$metadata#deviceManagement/configurationPolicies(assignments(),settings())/$entity",
   "@odata.type": "#microsoft.graph.deviceManagementConfigurationPolicy",
   "@odata.id": "deviceManagement/configurationPolicies('8b66b290-4bdf-489d-964c-05fa3f2b4c77')",

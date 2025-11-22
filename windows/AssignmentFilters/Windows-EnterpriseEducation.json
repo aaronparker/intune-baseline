@@ -1,4 +1,4 @@
-{
+﻿{
     "@odata.context":  "https://graph.microsoft.com/beta/$metadata#deviceManagement/assignmentFilters/$entity",
     "@odata.type":  "#microsoft.graph.deviceAndAppManagementAssignmentFilter",
     "@odata.id":  "deviceManagement/assignmentFilters(\u0027128c382b-5bad-406f-b484-15372f59ce56\u0027)",

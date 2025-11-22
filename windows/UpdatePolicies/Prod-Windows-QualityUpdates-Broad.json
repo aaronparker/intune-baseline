@@ -1,4 +1,4 @@
-{
+﻿{
   "@odata.context": "https://graph.microsoft.com/beta/$metadata#deviceManagement/deviceConfigurations(assignments())/$entity",
   "@odata.type": "#microsoft.graph.windowsUpdateForBusinessConfiguration",
   "@odata.id": "deviceManagement/deviceConfigurations('fcf3d90f-1217-4fcd-af2b-ea4fcbe49181')",
