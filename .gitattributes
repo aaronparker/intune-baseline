@@ -2,4 +2,4 @@
 *   text=auto
 
 # Configure diff support for JSON
-**/*.json diff working-tree-encoding=UTF-8-BOM eol=LF
+**/*.json diff working-tree-encoding=UTF-8 eol=LF
