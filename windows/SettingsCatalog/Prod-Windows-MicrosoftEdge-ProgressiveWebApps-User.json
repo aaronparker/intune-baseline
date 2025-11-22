@@ -1,100 +1,135 @@
 {
-    "@odata.context":  "https://graph.microsoft.com/beta/$metadata#deviceManagement/configurationPolicies(assignments(),settings())/$entity",
-    "@odata.type":  "#microsoft.graph.deviceManagementConfigurationPolicy",
-    "@odata.id":  "deviceManagement/configurationPolicies(\u0027c6b617c0-2a33-4518-ade3-4991adf4236c\u0027)",
-    "@odata.editLink":  "deviceManagement/configurationPolicies(\u0027c6b617c0-2a33-4518-ade3-4991adf4236c\u0027)",
-    "createdDateTime@odata.type":  "#DateTimeOffset",
-    "createdDateTime":  "2025-03-06T03:09:43.9086016Z",
-    "creationSource":  null,
-    "description":  "Configure list of force-installed Microsoft 365 Progessive Web Apps that have no Store or Win32 application equivalent. Apply to All Users (optionally with filters) or Entra ID user groups.",
-    "lastModifiedDateTime@odata.type":  "#DateTimeOffset",
-    "lastModifiedDateTime":  "2025-06-15T23:25:43.6331632Z",
-    "name":  "Prod-Windows-MicrosoftEdge-ProgressiveWebApps-User",
-    "platforms@odata.type":  "#microsoft.graph.deviceManagementConfigurationPlatforms",
-    "platforms":  "windows10",
-    "priorityMetaData":  null,
-    "roleScopeTagIds@odata.type":  "#Collection(String)",
-    "roleScopeTagIds":  [
-                            "0",
-                            "1"
-                        ],
-    "settingCount":  1,
-    "technologies@odata.type":  "#microsoft.graph.deviceManagementConfigurationTechnologies",
-    "technologies":  "mdm",
-    "id":  "c6b617c0-2a33-4518-ade3-4991adf4236c",
-    "templateReference":  {
-                              "@odata.type":  "#microsoft.graph.deviceManagementConfigurationPolicyTemplateReference",
-                              "templateId":  "",
-                              "templateFamily@odata.type":  "#microsoft.graph.deviceManagementConfigurationTemplateFamily",
-                              "templateFamily":  "none",
-                              "templateDisplayName":  null,
-                              "templateDisplayVersion":  null
-                          },
-    "assignments@odata.context":  "https://graph.microsoft.com/beta/$metadata#deviceManagement/configurationPolicies(\u0027c6b617c0-2a33-4518-ade3-4991adf4236c\u0027)/assignments",
-    "assignments@odata.associationLink":  "https://graph.microsoft.com/beta/deviceManagement/configurationPolicies(\u0027c6b617c0-2a33-4518-ade3-4991adf4236c\u0027)/assignments/$ref",
-    "assignments@odata.navigationLink":  "https://graph.microsoft.com/beta/deviceManagement/configurationPolicies(\u0027c6b617c0-2a33-4518-ade3-4991adf4236c\u0027)/assignments",
-    "settings@odata.context":  "https://graph.microsoft.com/beta/$metadata#deviceManagement/configurationPolicies(\u0027c6b617c0-2a33-4518-ade3-4991adf4236c\u0027)/settings",
-    "settings@odata.associationLink":  "https://graph.microsoft.com/beta/deviceManagement/configurationPolicies(\u0027c6b617c0-2a33-4518-ade3-4991adf4236c\u0027)/settings/$ref",
-    "settings@odata.navigationLink":  "https://graph.microsoft.com/beta/deviceManagement/configurationPolicies(\u0027c6b617c0-2a33-4518-ade3-4991adf4236c\u0027)/settings",
-    "settings":  [
-                     {
-                         "@odata.type":  "#microsoft.graph.deviceManagementConfigurationSetting",
-                         "@odata.id":  "deviceManagement/configurationPolicies(\u0027c6b617c0-2a33-4518-ade3-4991adf4236c\u0027)/settings(\u00270\u0027)",
-                         "@odata.editLink":  "deviceManagement/configurationPolicies(\u0027c6b617c0-2a33-4518-ade3-4991adf4236c\u0027)/settings(\u00270\u0027)",
-                         "id":  "0",
-                         "settingInstance":  {
-                                                 "@odata.type":  "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
-                                                 "settingDefinitionId":  "user_vendor_msft_policy_config_microsoft_edgev80diff~policy~microsoft_edge_webappinstallforcelist",
-                                                 "settingInstanceTemplateReference":  null,
-                                                 "choiceSettingValue":  {
-                                                                            "@odata.type":  "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
-                                                                            "settingValueTemplateReference":  null,
-                                                                            "value":  "user_vendor_msft_policy_config_microsoft_edgev80diff~policy~microsoft_edge_webappinstallforcelist_1",
-                                                                            "children@odata.type":  "#Collection(microsoft.graph.deviceManagementConfigurationSettingInstance)",
-                                                                            "children":  [
-                                                                                             {
-                                                                                                 "@odata.type":  "#microsoft.graph.deviceManagementConfigurationSimpleSettingInstance",
-                                                                                                 "settingDefinitionId":  "user_vendor_msft_policy_config_microsoft_edgev80diff~policy~microsoft_edge_webappinstallforcelist_webappinstallforcelist",
-                                                                                                 "settingInstanceTemplateReference":  null,
-                                                                                                 "simpleSettingValue":  {
-                                                                                                                            "@odata.type":  "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
-                                                                                                                            "settingValueTemplateReference":  null,
-                                                                                                                            "value":  "[{\"url\":\"https://loop.cloud.microsoft/?clientType=pwa\",\"default_launch_container\":\"window\",\"custom_name\":\"Microsoft Loop\"},{\"url\":\"https://engage.cloud.microsoft/main/?utm_source=homescreen\u0026utm_medium=shortcut\u0026isPWA=true\",\"default_launch_container\":\"window\",\"custom_name\":\"Viva Engage\"},{\"url\":\"https://learning.cloud.microsoft/home/providers\",\"default_launch_container\":\"window\",\"custom_name\":\"Viva Learning\"}]"
-                                                                                                                        }
-                                                                                             }
-                                                                                         ]
-                                                                        }
-                                             },
-                         "settingDefinitions@odata.associationLink":  "https://graph.microsoft.com/beta/deviceManagement/configurationPolicies(\u0027c6b617c0-2a33-4518-ade3-4991adf4236c\u0027)/settings(\u00270\u0027)/settingDefinitions/$ref",
-                         "settingDefinitions@odata.navigationLink":  "https://graph.microsoft.com/beta/deviceManagement/configurationPolicies(\u0027c6b617c0-2a33-4518-ade3-4991adf4236c\u0027)/settings(\u00270\u0027)/settingDefinitions"
-                     }
-                 ],
-    "#microsoft.graph.assign":  {
-                                    "title":  "microsoft.graph.assign",
-                                    "target":  "https://graph.microsoft.com/beta/deviceManagement/configurationPolicies(\u0027c6b617c0-2a33-4518-ade3-4991adf4236c\u0027)/microsoft.graph.assign"
-                                },
-    "#microsoft.graph.clearEnrollmentTimeDeviceMembershipTarget":  {
-                                                                       "title":  "microsoft.graph.clearEnrollmentTimeDeviceMembershipTarget",
-                                                                       "target":  "https://graph.microsoft.com/beta/deviceManagement/configurationPolicies(\u0027c6b617c0-2a33-4518-ade3-4991adf4236c\u0027)/microsoft.graph.clearEnrollmentTimeDeviceMembershipTarget"
-                                                                   },
-    "#microsoft.graph.createCopy":  {
-                                        "title":  "microsoft.graph.createCopy",
-                                        "target":  "https://graph.microsoft.com/beta/deviceManagement/configurationPolicies(\u0027c6b617c0-2a33-4518-ade3-4991adf4236c\u0027)/microsoft.graph.createCopy"
-                                    },
-    "#microsoft.graph.reorder":  {
-                                     "title":  "microsoft.graph.reorder",
-                                     "target":  "https://graph.microsoft.com/beta/deviceManagement/configurationPolicies(\u0027c6b617c0-2a33-4518-ade3-4991adf4236c\u0027)/microsoft.graph.reorder"
-                                 },
-    "#microsoft.graph.retrieveEnrollmentTimeDeviceMembershipTarget":  {
-                                                                          "title":  "microsoft.graph.retrieveEnrollmentTimeDeviceMembershipTarget",
-                                                                          "target":  "https://graph.microsoft.com/beta/deviceManagement/configurationPolicies(\u0027c6b617c0-2a33-4518-ade3-4991adf4236c\u0027)/microsoft.graph.retrieveEnrollmentTimeDeviceMembershipTarget"
-                                                                      },
-    "#microsoft.graph.setEnrollmentTimeDeviceMembershipTarget":  {
-                                                                     "title":  "microsoft.graph.setEnrollmentTimeDeviceMembershipTarget",
-                                                                     "target":  "https://graph.microsoft.com/beta/deviceManagement/configurationPolicies(\u0027c6b617c0-2a33-4518-ade3-4991adf4236c\u0027)/microsoft.graph.setEnrollmentTimeDeviceMembershipTarget"
-                                                                 },
-    "#microsoft.graph.retrieveLatestUpgradeDefaultBaselinePolicy":  {
-                                                                        "title":  "microsoft.graph.retrieveLatestUpgradeDefaultBaselinePolicy",
-                                                                        "target":  "https://graph.microsoft.com/beta/deviceManagement/configurationPolicies(\u0027c6b617c0-2a33-4518-ade3-4991adf4236c\u0027)/microsoft.graph.retrieveLatestUpgradeDefaultBaselinePolicy"
-                                                                    }
+  "@odata.context": "https://graph.microsoft.com/beta/$metadata#deviceManagement/configurationPolicies(assignments(),settings())/$entity",
+  "@odata.type": "#microsoft.graph.deviceManagementConfigurationPolicy",
+  "@odata.id": "deviceManagement/configurationPolicies('c6b617c0-2a33-4518-ade3-4991adf4236c')",
+  "@odata.editLink": "deviceManagement/configurationPolicies('c6b617c0-2a33-4518-ade3-4991adf4236c')",
+  "createdDateTime@odata.type": "#DateTimeOffset",
+  "createdDateTime": "2025-03-06T03:09:43.9086016Z",
+  "creationSource": null,
+  "description": "Configure list of force-installed Microsoft 365 Progessive Web Apps that have no Store or Win32 application equivalent. Apply to All Users (optionally with filters) or Entra ID user groups.",
+  "lastModifiedDateTime@odata.type": "#DateTimeOffset",
+  "lastModifiedDateTime": "2025-10-10T01:37:37.0929518Z",
+  "name": "Prod-Windows-MicrosoftEdge-ProgressiveWebApps-User",
+  "platforms@odata.type": "#microsoft.graph.deviceManagementConfigurationPlatforms",
+  "platforms": "windows10",
+  "priorityMetaData": null,
+  "roleScopeTagIds@odata.type": "#Collection(String)",
+  "roleScopeTagIds": [
+    "0",
+    "1"
+  ],
+  "settingCount": 2,
+  "technologies@odata.type": "#microsoft.graph.deviceManagementConfigurationTechnologies",
+  "technologies": "mdm",
+  "id": "c6b617c0-2a33-4518-ade3-4991adf4236c",
+  "templateReference": {
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationPolicyTemplateReference",
+    "templateId": "",
+    "templateFamily@odata.type": "#microsoft.graph.deviceManagementConfigurationTemplateFamily",
+    "templateFamily": "none",
+    "templateDisplayName": null,
+    "templateDisplayVersion": null
+  },
+  "assignments@odata.context": "https://graph.microsoft.com/beta/$metadata#deviceManagement/configurationPolicies('c6b617c0-2a33-4518-ade3-4991adf4236c')/assignments",
+  "assignments@odata.associationLink": "https://graph.microsoft.com/beta/deviceManagement/configurationPolicies('c6b617c0-2a33-4518-ade3-4991adf4236c')/assignments/$ref",
+  "assignments@odata.navigationLink": "https://graph.microsoft.com/beta/deviceManagement/configurationPolicies('c6b617c0-2a33-4518-ade3-4991adf4236c')/assignments",
+  "settings@odata.context": "https://graph.microsoft.com/beta/$metadata#deviceManagement/configurationPolicies('c6b617c0-2a33-4518-ade3-4991adf4236c')/settings",
+  "settings@odata.associationLink": "https://graph.microsoft.com/beta/deviceManagement/configurationPolicies('c6b617c0-2a33-4518-ade3-4991adf4236c')/settings/$ref",
+  "settings@odata.navigationLink": "https://graph.microsoft.com/beta/deviceManagement/configurationPolicies('c6b617c0-2a33-4518-ade3-4991adf4236c')/settings",
+  "settings": [
+    {
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationSetting",
+      "@odata.id": "deviceManagement/configurationPolicies('c6b617c0-2a33-4518-ade3-4991adf4236c')/settings('0')",
+      "@odata.editLink": "deviceManagement/configurationPolicies('c6b617c0-2a33-4518-ade3-4991adf4236c')/settings('0')",
+      "id": "0",
+      "settingInstance": {
+        "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+        "settingDefinitionId": "user_vendor_msft_policy_config_microsoft_edgev80diff~policy~microsoft_edge_webappinstallforcelist",
+        "settingInstanceTemplateReference": null,
+        "auditRuleInformation": null,
+        "choiceSettingValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
+          "settingValueTemplateReference": null,
+          "value": "user_vendor_msft_policy_config_microsoft_edgev80diff~policy~microsoft_edge_webappinstallforcelist_1",
+          "children@odata.type": "#Collection(microsoft.graph.deviceManagementConfigurationSettingInstance)",
+          "children": [
+            {
+              "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingInstance",
+              "settingDefinitionId": "user_vendor_msft_policy_config_microsoft_edgev80diff~policy~microsoft_edge_webappinstallforcelist_webappinstallforcelist",
+              "settingInstanceTemplateReference": null,
+              "auditRuleInformation": null,
+              "simpleSettingValue": {
+                "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+                "settingValueTemplateReference": null,
+                "value": "[{\"url\":\"https://loop.cloud.microsoft/?clientType=pwa\",\"default_launch_container\":\"window\",\"custom_name\":\"Microsoft Loop\"},{\"url\":\"https://engage.cloud.microsoft/main/?utm_source=homescreen&utm_medium=shortcut&isPWA=true\",\"default_launch_container\":\"window\",\"custom_name\":\"Viva Engage\"},{\"url\":\"https://learning.cloud.microsoft/home/providers\",\"default_launch_container\":\"window\",\"custom_name\":\"Viva Learning\"}]"
+              }
+            }
+          ]
+        }
+      },
+      "settingDefinitions@odata.associationLink": "https://graph.microsoft.com/beta/deviceManagement/configurationPolicies('c6b617c0-2a33-4518-ade3-4991adf4236c')/settings('0')/settingDefinitions/$ref",
+      "settingDefinitions@odata.navigationLink": "https://graph.microsoft.com/beta/deviceManagement/configurationPolicies('c6b617c0-2a33-4518-ade3-4991adf4236c')/settings('0')/settingDefinitions"
+    },
+    {
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationSetting",
+      "@odata.id": "deviceManagement/configurationPolicies('c6b617c0-2a33-4518-ade3-4991adf4236c')/settings('1')",
+      "@odata.editLink": "deviceManagement/configurationPolicies('c6b617c0-2a33-4518-ade3-4991adf4236c')/settings('1')",
+      "id": "1",
+      "settingInstance": {
+        "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+        "settingDefinitionId": "device_vendor_msft_policy_config_microsoft_edgev115~policy~microsoft_edge~manageability_edgemanagementenrollmenttoken",
+        "settingInstanceTemplateReference": null,
+        "auditRuleInformation": null,
+        "choiceSettingValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
+          "settingValueTemplateReference": null,
+          "value": "device_vendor_msft_policy_config_microsoft_edgev115~policy~microsoft_edge~manageability_edgemanagementenrollmenttoken_1",
+          "children@odata.type": "#Collection(microsoft.graph.deviceManagementConfigurationSettingInstance)",
+          "children": [
+            {
+              "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingInstance",
+              "settingDefinitionId": "device_vendor_msft_policy_config_microsoft_edgev115~policy~microsoft_edge~manageability_edgemanagementenrollmenttoken_edgemanagementenrollmenttoken",
+              "settingInstanceTemplateReference": null,
+              "auditRuleInformation": null,
+              "simpleSettingValue": {
+                "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+                "settingValueTemplateReference": null,
+                "value": "LgAAAADDZls4Tw9rRaIIJC_RGdATAQCjemGuEcbdSoRj3-avujUlAAIr07FZAAAB0"
+              }
+            }
+          ]
+        }
+      },
+      "settingDefinitions@odata.associationLink": "https://graph.microsoft.com/beta/deviceManagement/configurationPolicies('c6b617c0-2a33-4518-ade3-4991adf4236c')/settings('1')/settingDefinitions/$ref",
+      "settingDefinitions@odata.navigationLink": "https://graph.microsoft.com/beta/deviceManagement/configurationPolicies('c6b617c0-2a33-4518-ade3-4991adf4236c')/settings('1')/settingDefinitions"
+    }
+  ],
+  "#microsoft.graph.assign": {
+    "title": "microsoft.graph.assign",
+    "target": "https://graph.microsoft.com/beta/deviceManagement/configurationPolicies('c6b617c0-2a33-4518-ade3-4991adf4236c')/microsoft.graph.assign"
+  },
+  "#microsoft.graph.clearEnrollmentTimeDeviceMembershipTarget": {
+    "title": "microsoft.graph.clearEnrollmentTimeDeviceMembershipTarget",
+    "target": "https://graph.microsoft.com/beta/deviceManagement/configurationPolicies('c6b617c0-2a33-4518-ade3-4991adf4236c')/microsoft.graph.clearEnrollmentTimeDeviceMembershipTarget"
+  },
+  "#microsoft.graph.createCopy": {
+    "title": "microsoft.graph.createCopy",
+    "target": "https://graph.microsoft.com/beta/deviceManagement/configurationPolicies('c6b617c0-2a33-4518-ade3-4991adf4236c')/microsoft.graph.createCopy"
+  },
+  "#microsoft.graph.reorder": {
+    "title": "microsoft.graph.reorder",
+    "target": "https://graph.microsoft.com/beta/deviceManagement/configurationPolicies('c6b617c0-2a33-4518-ade3-4991adf4236c')/microsoft.graph.reorder"
+  },
+  "#microsoft.graph.retrieveEnrollmentTimeDeviceMembershipTarget": {
+    "title": "microsoft.graph.retrieveEnrollmentTimeDeviceMembershipTarget",
+    "target": "https://graph.microsoft.com/beta/deviceManagement/configurationPolicies('c6b617c0-2a33-4518-ade3-4991adf4236c')/microsoft.graph.retrieveEnrollmentTimeDeviceMembershipTarget"
+  },
+  "#microsoft.graph.setEnrollmentTimeDeviceMembershipTarget": {
+    "title": "microsoft.graph.setEnrollmentTimeDeviceMembershipTarget",
+    "target": "https://graph.microsoft.com/beta/deviceManagement/configurationPolicies('c6b617c0-2a33-4518-ade3-4991adf4236c')/microsoft.graph.setEnrollmentTimeDeviceMembershipTarget"
+  },
+  "#microsoft.graph.retrieveLatestUpgradeDefaultBaselinePolicy": {
+    "title": "microsoft.graph.retrieveLatestUpgradeDefaultBaselinePolicy",
+    "target": "https://graph.microsoft.com/beta/deviceManagement/configurationPolicies('c6b617c0-2a33-4518-ade3-4991adf4236c')/microsoft.graph.retrieveLatestUpgradeDefaultBaselinePolicy"
+  }
 }
