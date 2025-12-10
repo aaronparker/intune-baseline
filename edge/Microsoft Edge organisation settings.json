@@ -1,0 +1,140 @@
+{
+    "policies": [
+        {
+            "key": "SwitchSitesOnIEModeSiteListToWorkProfile",
+            "value": "false"
+        },
+        {
+            "key": "DeveloperToolsAvailability",
+            "value": "1"
+        },
+        {
+            "key": "ExtensionDeveloperModeSettings",
+            "value": "1"
+        },
+        {
+            "key": "PreventSmartScreenPromptOverrideForFiles",
+            "value": "true"
+        },
+        {
+            "key": "PreventSmartScreenPromptOverride",
+            "value": "true"
+        },
+        {
+            "key": "ShowDownloadsInsecureWarningsEnabled",
+            "value": "true"
+        },
+        {
+            "key": "EdgeShoppingAssistantEnabled",
+            "value": "false"
+        },
+        {
+            "key": "OrgBrandingCustomLogoOnAppIcon",
+            "value": "\"https://edge.microsoft.com/enterprisesitemanagement/api/v2/branding/edge/LgAAAADDZls4Tw9rRaIIJC_RGdATAQCjemGuEcbdSoRj3-avujUlAAI380s2AAAB0/images/businessIcon\""
+        },
+        {
+            "key": "OrgBrandingCustomLogo",
+            "value": "\"https://edge.microsoft.com/enterprisesitemanagement/api/v2/branding/edge/LgAAAADDZls4Tw9rRaIIJC_RGdATAQCjemGuEcbdSoRj3-avujUlAAI380s2AAAB0/images/organizationLogo\""
+        },
+        {
+            "key": "OrgBrandingCustomColor",
+            "value": "\"#009485\""
+        },
+        {
+            "key": "OrgBrandingCustomName",
+            "value": "\"stealthpuppy\""
+        },
+        {
+            "key": "EdgeManagementExtensionsFeedbackEnabled",
+            "value": "true"
+        },
+        {
+            "key": "NewTabPageHideDefaultTopSites",
+            "value": "true"
+        },
+        {
+            "key": "NewTabPageSearchBox",
+            "value": "\"bing\""
+        },
+        {
+            "key": "NewTabPageContentEnabled",
+            "value": "false"
+        },
+        {
+            "key": "NewTabPageAllowedBackgroundTypes",
+            "value": "1"
+        },
+        {
+            "key": "ExtensionSettings",
+            "value": "{\"*\":{\"installation_mode\":\"blocked\",\"blocked_install_message\":\"This extension has been blocked - as set of approved extensions is installed automatically. To request an extension to be added to Edge, please use the request form.\",\"allowed_types\":[\"extension\",\"hosted_app\",\"theme\",\"user_script\"]},\"odfafepnkmbhccpbejgmiehpchacaeak\":{\"installation_mode\":\"force_installed\",\"update_url\":\"https://edge.microsoft.com/extensionwebstorebase/v1/crx\",\"override_update_url\":true,\"toolbar_state\":\"default_hidden\"},\"nkbndigcebkoaejohleckhekfmcecfja\":{\"installation_mode\":\"allowed\",\"override_update_url\":false,\"toolbar_state\":\"default_hidden\"},\"gecfnmoodchdkebjjffmdcmeghkflpib\":{\"installation_mode\":\"force_installed\",\"update_url\":\"https://edge.microsoft.com/extensionwebstorebase/v1/crx\",\"override_update_url\":true,\"toolbar_state\":\"default_hidden\"},\"gbihlnbpmfkodghomcinpblknjhneknc\":{\"installation_mode\":\"force_installed\",\"update_url\":\"https://edge.microsoft.com/extensionwebstorebase/v1/crx\",\"override_update_url\":true,\"toolbar_state\":\"default_hidden\"},\"kfihiegbjaloebkmglnjnljoljgkkchm\":{\"installation_mode\":\"force_installed\",\"update_url\":\"https://edge.microsoft.com/extensionwebstorebase/v1/crx\",\"override_update_url\":true,\"toolbar_state\":\"default_hidden\"},\"piilhopgoheagglmepbmkpodfceclmab\":{\"installation_mode\":\"force_installed\",\"update_url\":\"https://edge.microsoft.com/extensionwebstorebase/v1/crx\",\"override_update_url\":true,\"toolbar_state\":\"default_hidden\"},\"cjneempfhkonkkbcmnfdibgobmhbagaj\":{\"installation_mode\":\"allowed\",\"override_update_url\":false,\"toolbar_state\":\"default_hidden\"},\"dppgmdbiimibapkepcbdbmkaabgiofem\":{\"installation_mode\":\"allowed\",\"override_update_url\":false,\"toolbar_state\":\"default_hidden\"},\"nlaafkflcfpkjcmcmmhjjoefjfdgdnao\":{\"installation_mode\":\"allowed\",\"override_update_url\":false,\"toolbar_state\":\"default_hidden\"},\"oplgganppgjhpihgciiifejplnnpodak\":{\"installation_mode\":\"allowed\",\"override_update_url\":false,\"toolbar_state\":\"default_hidden\"},\"kagpabjoboikccfdghpdlaaopmgpgfdc\":{\"installation_mode\":\"allowed\",\"override_update_url\":false,\"toolbar_state\":\"default_hidden\"},\"gaaceiggkkiffbfdpmfapegoiohkiipl\":{\"installation_mode\":\"allowed\",\"override_update_url\":false,\"toolbar_state\":\"default_hidden\"},\"ofefcgjbeghpigppfmkologfjadafddi\":{\"installation_mode\":\"allowed\",\"override_update_url\":false,\"toolbar_state\":\"default_hidden\"},\"jbleckejnaboogigodiafflhkajdmpcl\":{\"installation_mode\":\"allowed\",\"override_update_url\":false,\"toolbar_state\":\"default_hidden\"}}"
+        },
+        {
+            "key": "ConfigureDoNotTrack",
+            "value": "true"
+        },
+        {
+            "key": "VisualSearchEnabled",
+            "value": "true"
+        },
+        {
+            "key": "TranslateEnabled",
+            "value": "true"
+        },
+        {
+            "key": "EdgeAutofillMlEnabled",
+            "value": "true"
+        },
+        {
+            "key": "EdgeConnectedFeatureControl",
+            "value": "2"
+        },
+        {
+            "key": "EnhanceSecurityMode",
+            "value": "1"
+        },
+        {
+            "key": "SwitchIntranetSitesToWorkProfile",
+            "value": "false"
+        },
+        {
+            "key": "AIGenThemesEnabled",
+            "value": "false"
+        },
+        {
+            "key": "MicrosoftEditorProofingEnabled",
+            "value": "true"
+        },
+        {
+            "key": "TabServicesEnabled",
+            "value": "true"
+        },
+        {
+            "key": "TextPredictionEnabled",
+            "value": "true"
+        },
+        {
+            "key": "URLBlocklist",
+            "value": "[\"https://bard.google.com\",\"https://chat.openai.com\",\"https://chatgpt.com\",\"https://chatgpt.es\",\"https://gemini.google.com\",\"https://claude.ai\",\"https://perplexity.ai\",\"https://jasper.ai\",\"https://you.com\",\"https://writesonic.com/chat\",\"https://cohere.com/coral\",\"https://deepseek.com\",\"https://deepseek.me\"]"
+        },
+        {
+            "key": "ComposeInlineEnabled",
+            "value": "true"
+        },
+        {
+            "key": "NewTabPageBingChatEnabled",
+            "value": "true"
+        },
+        {
+            "key": "EdgeEntraCopilotPageContext",
+            "value": "true"
+        },
+        {
+            "key": "Microsoft365CopilotChatIconEnabled",
+            "value": "true"
+        },
+        {
+            "key": "BlockExternalExtensions",
+            "value": "true"
+        }
+    ]
+}
